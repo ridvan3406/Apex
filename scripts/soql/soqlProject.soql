@@ -1,0 +1,28 @@
+//SELECT id, name ,project_name__c,status__c FROM Salesforce_Project__c,
+
+SELECT id, name, mailingcity FROM Contact where mailingcity='London' OR mailingcity=''
+SELECT id, name, mailingcity FROM Contact where name LIKE 'A%'
+SELECT id, name, phone FROM Account where phone != null and name LIKE '%a%'
+
+
+SELECT id, name, phone,AccountNumber,website
+    FROM Account 
+    WHERE (phone != null OR website != null)
+    AND AccountNumber !=null
+
+
+
+SELECT id,name FROM Account ORDER BY Name DESC
+SELECT id,name FROM Account ORDER BY Name ASC
+SELECT id,name FROM Account WHERE industry ='energy' LIMIT 3
+SELECT id,name,createdDate from Account where createdDate=LAST_90_DAYS ORDER BY Name DESC
+
+
+SELECT COUNT() FROM Contact where createdDate=LAST_90_DAYS
+SELECT COUNT(id) FROM Contact
+
+
+
+SELECT id,name,status__c,priority__c,subject__c
+    FROM Salesforce_Ticket__c
+    WHERE status__c !='' or priority__c='high'
