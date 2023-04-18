@@ -1,0 +1,26 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "SalesforceProjectTrigger",
+      "apexClassOrTriggerId": "01q8d000000hsfAAAQ",
+      "apexTestClassId": "01p8d00000Qx3ioAAB",
+      "apexTestMethodName": "testValidateProjectCompletion",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 5,
+      "percentage": "29%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          9
+        ],
+        "uncoveredLines": [
+          4,
+          5,
+          6,
+          7,
+          10
+        ]
+      }
+    }
+  ]
+]

@@ -51,7 +51,7 @@ public class SalesforceProjectTriggerHandler {
     public static void updateProjectDescription(Set<Id> setSPIds) {
         List<salesforce_project__c> listSP =[SELECT id,name,description__c FROM Salesforce_Project__c where id in :setSPIds];
         for (salesforce_project__c eachSP: listSP) {
-            eachSP.description__c= eachSP.description__c + ' This line if from future method' ;
+            eachSP.description__c= eachSP.description__c + 'This line is from future method' ;
         }
         update listSP;
     }

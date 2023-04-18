@@ -1,0 +1,173 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Apr 18 2023 15:49:26",
+    "testExecutionTimeInMs": 1016,
+    "testTotalTimeInMs": 1016,
+    "commandTimeInMs": 161,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003AqlYl",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 32,
+    "coveredLines": 32,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "61%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002JxDyEAK",
+      "queueItemId": "7098d000000V0tDAAS",
+      "stackTrace": "Class.SalesforceProjectTriggerHandlerTest.testValidateProjectCompletion: line 57, column 1",
+      "message": "System.DmlException: Update failed. First exception on row 0 with id a0d8d000003Sv8QAAS; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, Cannot complete project because all its ticket are not completed: []",
+      "asyncApexJobId": "7078d00003AqlYlAAJ",
+      "methodName": "testValidateProjectCompletion",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000Qx3ioAAB",
+        "name": "SalesforceProjectTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "SalesforceProjectTriggerHandlerTest"
+      },
+      "runTime": 1016,
+      "testTimestamp": "2023-04-18T14:49:32.000+0000",
+      "fullName": "SalesforceProjectTriggerHandlerTest.testValidateProjectCompletion",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Update failed. First exception on row 0 with id a0d8d000003Sv8QAAS; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, Cannot complete project because all its ticket are not completed: []",
+        "exceptionStackTrace": "Class.SalesforceProjectTriggerHandlerTest.testValidateProjectCompletion: line 57, column 1",
+        "className": "SalesforceProjectTriggerHandlerTest",
+        "compileProblem": "",
+        "lineNumber": 57,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "SalesforceProjectTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwOdHAAV",
+          "apexTestClassId": "01p8d00000Qx3ioAAB",
+          "apexTestMethodName": "testValidateProjectCompletion",
+          "numLinesCovered": 20,
+          "numLinesUncovered": 5,
+          "percentage": "80%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              14,
+              15,
+              26,
+              28,
+              29,
+              30,
+              31,
+              32,
+              37,
+              42,
+              43,
+              45,
+              46
+            ],
+            "uncoveredLines": [
+              51,
+              52,
+              53,
+              54,
+              56
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "SalesforceProjectTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsfAAAQ",
+          "apexTestClassId": "01p8d00000Qx3ioAAB",
+          "apexTestMethodName": "testValidateProjectCompletion",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              9,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QwOdHAAV",
+      "name": "SalesforceProjectTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 25,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        37,
+        42,
+        43,
+        45,
+        46,
+        51,
+        52,
+        53,
+        54,
+        56
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8d000000hsfAAAQ",
+      "name": "SalesforceProjectTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}
