@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Apr 17 2023 13:08:11",
+    "testExecutionTimeInMs": 3626,
+    "testTotalTimeInMs": 3626,
+    "commandTimeInMs": 233,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003AoAEV",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002Jw05EAC",
+      "queueItemId": "7098d000000V0noAAC",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003AoAEVAA3",
+      "methodName": "testUpdateMultiple",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QwxQdAAJ",
+        "name": "insertRelatedRecordDemoTest",
+        "namespacePrefix": null,
+        "fullName": "insertRelatedRecordDemoTest"
+      },
+      "runTime": 3626,
+      "testTimestamp": "2023-04-17T12:08:12.000+0000",
+      "fullName": "insertRelatedRecordDemoTest.testUpdateMultiple"
+    }
+  ]
+}

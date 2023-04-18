@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Apr 14 2023 16:02:45",
+    "testExecutionTimeInMs": 1525,
+    "testTotalTimeInMs": 1525,
+    "commandTimeInMs": 168,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000039fSuE",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002Jv3IEAS",
+      "queueItemId": "7098d000000V0dHAAS",
+      "stackTrace": "Class.updateRecord.insertRelatedRecord: line 21, column 1\nClass.updateRecordTest.updateTest: line 10, column 1",
+      "message": "System.StringException: Invalid id: green bottle",
+      "asyncApexJobId": "7078d000039fSuEAAU",
+      "methodName": "updateTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QwvdTAAR",
+        "name": "updateRecordTest",
+        "namespacePrefix": null,
+        "fullName": "updateRecordTest"
+      },
+      "runTime": 1525,
+      "testTimestamp": "2023-04-14T15:02:46.000+0000",
+      "fullName": "updateRecordTest.updateTest",
+      "diagnostic": {
+        "exceptionMessage": "System.StringException: Invalid id: green bottle",
+        "exceptionStackTrace": "Class.updateRecord.insertRelatedRecord: line 21, column 1\nClass.updateRecordTest.updateTest: line 10, column 1",
+        "className": "updateRecord",
+        "compileProblem": "",
+        "lineNumber": 21,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

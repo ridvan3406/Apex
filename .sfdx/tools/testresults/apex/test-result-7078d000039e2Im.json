@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Apr 13 2023 18:19:25",
+    "testExecutionTimeInMs": 1319,
+    "testTotalTimeInMs": 1319,
+    "commandTimeInMs": 134,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000039e2Im",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002JtOsEAK",
+      "queueItemId": "7098d000000V0YqAAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000039e2ImAAI",
+      "methodName": "testInsertStandartobjec",
+      "outcome": "Pass",
+      "apexLogId": "07L8d000006Kj77EAC",
+      "apexClass": {
+        "id": "01p8d00000Qwvd9AAB",
+        "name": "DMLDemoTest",
+        "namespacePrefix": null,
+        "fullName": "DMLDemoTest"
+      },
+      "runTime": 1319,
+      "testTimestamp": "2023-04-13T17:19:25.000+0000",
+      "fullName": "DMLDemoTest.testInsertStandartobjec"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Apr 14 2023 17:24:41",
+    "testExecutionTimeInMs": 1878,
+    "testTotalTimeInMs": 1878,
+    "commandTimeInMs": 151,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000039fZLI",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002Jv7AEAS",
+      "queueItemId": "7098d000000V0eoAAC",
+      "stackTrace": "Class.insertRelatedRecordDemoTest.testUpdateMultiple: line 26, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: Drejan v.2, Actual: Drejan1 v.2",
+      "asyncApexJobId": "7078d000039fZLIAA2",
+      "methodName": "testUpdateMultiple",
+      "outcome": "Fail",
+      "apexLogId": "07L8d000006KoJAEA0",
+      "apexClass": {
+        "id": "01p8d00000QwxQdAAJ",
+        "name": "insertRelatedRecordDemoTest",
+        "namespacePrefix": null,
+        "fullName": "insertRelatedRecordDemoTest"
+      },
+      "runTime": 1878,
+      "testTimestamp": "2023-04-14T16:24:41.000+0000",
+      "fullName": "insertRelatedRecordDemoTest.testUpdateMultiple",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: Drejan v.2, Actual: Drejan1 v.2",
+        "exceptionStackTrace": "Class.insertRelatedRecordDemoTest.testUpdateMultiple: line 26, column 1",
+        "className": "insertRelatedRecordDemoTest",
+        "compileProblem": "",
+        "lineNumber": 26,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

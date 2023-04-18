@@ -1,9 +1,9 @@
 public class DMLDemo {
-    public static void insert_standartObjevt() {
+    public static void insert_standartObject() {
         Account acc= new Account();
 
-        acc.Name ='Hugo Boss';
-        acc.Industry='Watch';
+        acc.Name ='Airpod';
+        acc.Industry='Technology';
         acc.Phone='98237498';
 
         insert acc;
@@ -12,10 +12,11 @@ public class DMLDemo {
         System.debug(acc);
     }
 
-    public static void insert_customObjevt(){
+    public static void insert_customObject(){
         Salesforce_project__c sp = new Salesforce_project__c();
         sp.project_name__c='Teach DML';
         sp.description__c='Data manipulation Language';
         insert sp;
     }
 }
+

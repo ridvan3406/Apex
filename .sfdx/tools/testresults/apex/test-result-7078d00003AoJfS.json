@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Apr 17 2023 13:39:11",
+    "testExecutionTimeInMs": 2084,
+    "testTotalTimeInMs": 2084,
+    "commandTimeInMs": 182,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003AoJfS",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002JwBDEA0",
+      "queueItemId": "7098d000000V0ntAAC",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003AoJfSAAV",
+      "methodName": "testChildToParentSOQL_1",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000Qx1FNAAZ",
+        "name": "childToParentSOQLTest",
+        "namespacePrefix": null,
+        "fullName": "childToParentSOQLTest"
+      },
+      "runTime": 2084,
+      "testTimestamp": "2023-04-17T12:39:11.000+0000",
+      "fullName": "childToParentSOQLTest.testChildToParentSOQL_1"
+    }
+  ]
+}

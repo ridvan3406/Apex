@@ -1,0 +1,185 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Apr 17 2023 17:34:17",
+    "testExecutionTimeInMs": 1506,
+    "testTotalTimeInMs": 1506,
+    "commandTimeInMs": 138,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003AopXz",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 29,
+    "coveredLines": 26,
+    "testRunCoverage": "90%",
+    "orgWideCoverage": "36%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002JwYgEAK",
+      "queueItemId": "7098d000000V0pLAAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003AopXzAAJ",
+      "methodName": "updateDescIfAccountisActive",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000Qx1exAAB",
+        "name": "AccountTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "AccountTriggerHandlerTest"
+      },
+      "runTime": 1506,
+      "testTimestamp": "2023-04-17T16:34:17.000+0000",
+      "fullName": "AccountTriggerHandlerTest.updateDescIfAccountisActive",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000Qx1exAAB",
+          "apexTestMethodName": "updateDescIfAccountisActive",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              6,
+              7,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000Qx1exAAB",
+          "apexTestMethodName": "updateDescIfAccountisActive",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              7,
+              8
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000Qx1exAAB",
+          "apexTestMethodName": "updateDescIfAccountisActive",
+          "numLinesCovered": 17,
+          "numLinesUncovered": 3,
+          "percentage": "85%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              5,
+              6,
+              10,
+              11,
+              16,
+              17,
+              18,
+              21,
+              22,
+              27,
+              30,
+              32,
+              34,
+              39,
+              42,
+              48
+            ],
+            "uncoveredLines": [
+              35,
+              45,
+              46
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QwLVPAA3",
+      "name": "AccountTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 17,
+      "numLinesUncovered": 3,
+      "percentage": "85%",
+      "coveredLines": [
+        2,
+        5,
+        6,
+        10,
+        11,
+        16,
+        17,
+        18,
+        21,
+        22,
+        27,
+        30,
+        32,
+        34,
+        39,
+        42,
+        48
+      ],
+      "uncoveredLines": [
+        35,
+        45,
+        46
+      ]
+    },
+    {
+      "apexId": "01q8d000000hsDaAAI",
+      "name": "AccountTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        5,
+        7,
+        8
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000Qwv84AAB",
+      "name": "AccountUpdateHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

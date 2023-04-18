@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Apr 13 2023 17:06:43",
+    "testExecutionTimeInMs": 32,
+    "testTotalTimeInMs": 32,
+    "commandTimeInMs": 165,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000039dwbl",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002JtLKEA0",
+      "queueItemId": "7098d000000V0XnAAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000039dwblAAA",
+      "methodName": "addTwonumber",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QwvGoAAJ",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 32,
+      "testTimestamp": "2023-04-13T16:06:44.000+0000",
+      "fullName": "CalculatorTest.addTwonumber"
+    }
+  ]
+}

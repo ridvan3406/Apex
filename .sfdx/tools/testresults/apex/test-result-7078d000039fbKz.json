@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Apr 14 2023 17:45:49",
+    "testExecutionTimeInMs": 2058,
+    "testTotalTimeInMs": 2058,
+    "commandTimeInMs": 132,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000039fbKz",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002Jv8wEAC",
+      "queueItemId": "7098d000000V0frAAC",
+      "stackTrace": "Class.insertRelatedRecordDemoTest.testMultipleRecordUpdate: line 51, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: Account1 v.2, Actual: Account0 v.2",
+      "asyncApexJobId": "7078d000039fbKzAAI",
+      "methodName": "testMultipleRecordUpdate",
+      "outcome": "Fail",
+      "apexLogId": "07L8d000006KoY5EAK",
+      "apexClass": {
+        "id": "01p8d00000QwxQdAAJ",
+        "name": "insertRelatedRecordDemoTest",
+        "namespacePrefix": null,
+        "fullName": "insertRelatedRecordDemoTest"
+      },
+      "runTime": 2058,
+      "testTimestamp": "2023-04-14T16:45:49.000+0000",
+      "fullName": "insertRelatedRecordDemoTest.testMultipleRecordUpdate",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: Account1 v.2, Actual: Account0 v.2",
+        "exceptionStackTrace": "Class.insertRelatedRecordDemoTest.testMultipleRecordUpdate: line 51, column 1",
+        "className": "insertRelatedRecordDemoTest",
+        "compileProblem": "",
+        "lineNumber": 51,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

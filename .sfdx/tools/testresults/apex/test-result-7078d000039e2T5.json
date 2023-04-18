@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Apr 13 2023 18:21:49",
+    "testExecutionTimeInMs": 1272,
+    "testTotalTimeInMs": 1272,
+    "commandTimeInMs": 139,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000039e2T5",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002JtPbEAK",
+      "queueItemId": "7098d000000V0Z0AAK",
+      "stackTrace": "Class.DMLDemoTest.testInsertStandartobjec: line 10, column 1",
+      "message": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Account.Industry",
+      "asyncApexJobId": "7078d000039e2T5AAI",
+      "methodName": "testInsertStandartobjec",
+      "outcome": "Fail",
+      "apexLogId": "07L8d000006Kj7qEAC",
+      "apexClass": {
+        "id": "01p8d00000Qwvd9AAB",
+        "name": "DMLDemoTest",
+        "namespacePrefix": null,
+        "fullName": "DMLDemoTest"
+      },
+      "runTime": 1272,
+      "testTimestamp": "2023-04-13T17:21:49.000+0000",
+      "fullName": "DMLDemoTest.testInsertStandartobjec",
+      "diagnostic": {
+        "exceptionMessage": "System.SObjectException: SObject row was retrieved via SOQL without querying the requested field: Account.Industry",
+        "exceptionStackTrace": "Class.DMLDemoTest.testInsertStandartobjec: line 10, column 1",
+        "className": "DMLDemoTest",
+        "compileProblem": "",
+        "lineNumber": 10,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

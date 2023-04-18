@@ -1,0 +1,96 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 1,
+    "failing": 2,
+    "skipped": 0,
+    "passRate": "33%",
+    "failRate": "67%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Apr 14 2023 16:19:16",
+    "testExecutionTimeInMs": 1682,
+    "testTotalTimeInMs": 1682,
+    "commandTimeInMs": 156,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000039fUMT",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002Jv59EAC",
+      "queueItemId": "7098d000000V0eKAAS",
+      "stackTrace": "Class.updateRecord.insertRelatedRecord: line 21, column 1\nClass.updateRecordTest.testInsertRelatedRecord: line 45, column 1",
+      "message": "System.StringException: Invalid id: Airpod",
+      "asyncApexJobId": "7078d000039fUMTAA2",
+      "methodName": "testInsertRelatedRecord",
+      "outcome": "Fail",
+      "apexLogId": "07L8d000006KoA6EAK",
+      "apexClass": {
+        "id": "01p8d00000QwvdTAAR",
+        "name": "updateRecordTest",
+        "namespacePrefix": null,
+        "fullName": "updateRecordTest"
+      },
+      "runTime": 1364,
+      "testTimestamp": "2023-04-14T15:19:18.000+0000",
+      "fullName": "updateRecordTest.testInsertRelatedRecord",
+      "diagnostic": {
+        "exceptionMessage": "System.StringException: Invalid id: Airpod",
+        "exceptionStackTrace": "Class.updateRecord.insertRelatedRecord: line 21, column 1\nClass.updateRecordTest.testInsertRelatedRecord: line 45, column 1",
+        "className": "updateRecord",
+        "compileProblem": "",
+        "lineNumber": 21,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M8d000002Jv5AEAS",
+      "queueItemId": "7098d000000V0eKAAS",
+      "stackTrace": "Class.updateRecord.insertRelatedRecord: line 16, column 1\nClass.updateRecordTest.testInsertRelatedRecord_AccountNotFound: line 57, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7078d000039fUMTAA2",
+      "methodName": "testInsertRelatedRecord_AccountNotFound",
+      "outcome": "Fail",
+      "apexLogId": "07L8d000006KoA6EAK",
+      "apexClass": {
+        "id": "01p8d00000QwvdTAAR",
+        "name": "updateRecordTest",
+        "namespacePrefix": null,
+        "fullName": "updateRecordTest"
+      },
+      "runTime": 8,
+      "testTimestamp": "2023-04-14T15:19:19.000+0000",
+      "fullName": "updateRecordTest.testInsertRelatedRecord_AccountNotFound",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.updateRecord.insertRelatedRecord: line 16, column 1\nClass.updateRecordTest.testInsertRelatedRecord_AccountNotFound: line 57, column 1",
+        "className": "updateRecord",
+        "compileProblem": "",
+        "lineNumber": 16,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M8d000002Jv5BEAS",
+      "queueItemId": "7098d000000V0eKAAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000039fUMTAA2",
+      "methodName": "testUpdateDML",
+      "outcome": "Pass",
+      "apexLogId": "07L8d000006KoA6EAK",
+      "apexClass": {
+        "id": "01p8d00000QwvdTAAR",
+        "name": "updateRecordTest",
+        "namespacePrefix": null,
+        "fullName": "updateRecordTest"
+      },
+      "runTime": 310,
+      "testTimestamp": "2023-04-14T15:19:19.000+0000",
+      "fullName": "updateRecordTest.testUpdateDML"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 3,
+    "passing": 3,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Apr 13 2023 16:16:46",
+    "testExecutionTimeInMs": 29,
+    "testTotalTimeInMs": 29,
+    "commandTimeInMs": 138,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000039dsSH",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002Jt0HEAS",
+      "queueItemId": "7098d000000V0XTAA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000039dsSHAAY",
+      "methodName": "testAddThreeNumbers",
+      "outcome": "Pass",
+      "apexLogId": "07L8d000006KhhKEAS",
+      "apexClass": {
+        "id": "01p8d00000QwvGoAAJ",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 20,
+      "testTimestamp": "2023-04-13T15:16:46.000+0000",
+      "fullName": "CalculatorTest.testAddThreeNumbers"
+    },
+    {
+      "id": "07M8d000002Jt0IEAS",
+      "queueItemId": "7098d000000V0XTAA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000039dsSHAAY",
+      "methodName": "testAddTwoNumbers",
+      "outcome": "Pass",
+      "apexLogId": "07L8d000006KhhKEAS",
+      "apexClass": {
+        "id": "01p8d00000QwvGoAAJ",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 5,
+      "testTimestamp": "2023-04-13T15:16:46.000+0000",
+      "fullName": "CalculatorTest.testAddTwoNumbers"
+    },
+    {
+      "id": "07M8d000002Jt0JEAS",
+      "queueItemId": "7098d000000V0XTAA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000039dsSHAAY",
+      "methodName": "testPrintAndReturnMessage",
+      "outcome": "Pass",
+      "apexLogId": "07L8d000006KhhKEAS",
+      "apexClass": {
+        "id": "01p8d00000QwvGoAAJ",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 4,
+      "testTimestamp": "2023-04-13T15:16:46.000+0000",
+      "fullName": "CalculatorTest.testPrintAndReturnMessage"
+    }
+  ]
+}

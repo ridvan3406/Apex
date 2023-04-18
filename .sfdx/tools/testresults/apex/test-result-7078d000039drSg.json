@@ -1,0 +1,80 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 3,
+    "passing": 3,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Apr 13 2023 16:07:23",
+    "testExecutionTimeInMs": 34,
+    "testTotalTimeInMs": 34,
+    "commandTimeInMs": 170,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000039drSg",
+    "userId": "0058d000005gLuVAAU"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002Jt02EAC",
+      "queueItemId": "7098d000000V0XEAA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000039drSgAAI",
+      "methodName": "testMethod1",
+      "outcome": "Pass",
+      "apexLogId": "07L8d000006KfSOEA0",
+      "apexClass": {
+        "id": "01p8d00000QwvGoAAJ",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 25,
+      "testTimestamp": "2023-04-13T15:07:23.000+0000",
+      "fullName": "CalculatorTest.testMethod1"
+    },
+    {
+      "id": "07M8d000002Jt03EAC",
+      "queueItemId": "7098d000000V0XEAA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000039drSgAAI",
+      "methodName": "testMethodAdd1",
+      "outcome": "Pass",
+      "apexLogId": "07L8d000006KfSOEA0",
+      "apexClass": {
+        "id": "01p8d00000QwvGoAAJ",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 5,
+      "testTimestamp": "2023-04-13T15:07:23.000+0000",
+      "fullName": "CalculatorTest.testMethodAdd1"
+    },
+    {
+      "id": "07M8d000002Jt04EAC",
+      "queueItemId": "7098d000000V0XEAA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000039drSgAAI",
+      "methodName": "testMethodAdd2",
+      "outcome": "Pass",
+      "apexLogId": "07L8d000006KfSOEA0",
+      "apexClass": {
+        "id": "01p8d00000QwvGoAAJ",
+        "name": "CalculatorTest",
+        "namespacePrefix": null,
+        "fullName": "CalculatorTest"
+      },
+      "runTime": 4,
+      "testTimestamp": "2023-04-13T15:07:23.000+0000",
+      "fullName": "CalculatorTest.testMethodAdd2"
+    }
+  ]
+}
