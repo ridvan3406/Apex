@@ -1,0 +1,224 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 2,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "67%",
+    "failRate": "33%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Apr 24 2023 19:10:49",
+    "testExecutionTimeInMs": 38,
+    "testTotalTimeInMs": 38,
+    "commandTimeInMs": 148,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003E3SIA",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 17,
+    "coveredLines": 17,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "62%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002K1F0EAK",
+      "queueItemId": "7098d000000V1BeAAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003E3SIAAA3",
+      "methodName": "smallestOutOfThreeNumbers",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxK6kAAF",
+        "name": "OperationsHelperTest",
+        "namespacePrefix": null,
+        "fullName": "OperationsHelperTest"
+      },
+      "runTime": 29,
+      "testTimestamp": "2023-04-24T18:10:49.000+0000",
+      "fullName": "OperationsHelperTest.smallestOutOfThreeNumbers",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OperationsHelper",
+          "apexClassOrTriggerId": "01p8d00000QxK6QAAV",
+          "apexTestClassId": "01p8d00000QxK6kAAF",
+          "apexTestMethodName": "smallestOutOfThreeNumbers",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 13,
+          "percentage": "24%",
+          "coverage": {
+            "coveredLines": [
+              12,
+              14,
+              15,
+              16
+            ],
+            "uncoveredLines": [
+              2,
+              3,
+              4,
+              5,
+              7,
+              9,
+              19,
+              20,
+              21,
+              24,
+              25,
+              26,
+              30
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8d000002K1F1EAK",
+      "queueItemId": "7098d000000V1BeAAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003E3SIAAA3",
+      "methodName": "testLargestOutofTwoNumbers",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxK6kAAF",
+        "name": "OperationsHelperTest",
+        "namespacePrefix": null,
+        "fullName": "OperationsHelperTest"
+      },
+      "runTime": 5,
+      "testTimestamp": "2023-04-24T18:10:49.000+0000",
+      "fullName": "OperationsHelperTest.testLargestOutofTwoNumbers",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OperationsHelper",
+          "apexClassOrTriggerId": "01p8d00000QxK6QAAV",
+          "apexTestClassId": "01p8d00000QxK6kAAF",
+          "apexTestMethodName": "testLargestOutofTwoNumbers",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 10,
+          "percentage": "41%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4,
+              5,
+              7,
+              9,
+              12
+            ],
+            "uncoveredLines": [
+              14,
+              15,
+              16,
+              19,
+              20,
+              21,
+              24,
+              25,
+              26,
+              30
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8d000002K1F2EAK",
+      "queueItemId": "7098d000000V1BeAAK",
+      "stackTrace": "Class.OperationsHelperTest.testSumOfPositiveInteger: line 22, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: 6, Actual: 561",
+      "asyncApexJobId": "7078d00003E3SIAAA3",
+      "methodName": "testSumOfPositiveInteger",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxK6kAAF",
+        "name": "OperationsHelperTest",
+        "namespacePrefix": null,
+        "fullName": "OperationsHelperTest"
+      },
+      "runTime": 4,
+      "testTimestamp": "2023-04-24T18:10:49.000+0000",
+      "fullName": "OperationsHelperTest.testSumOfPositiveInteger",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: 6, Actual: 561",
+        "exceptionStackTrace": "Class.OperationsHelperTest.testSumOfPositiveInteger: line 22, column 1",
+        "className": "OperationsHelperTest",
+        "compileProblem": "",
+        "lineNumber": 22,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OperationsHelper",
+          "apexClassOrTriggerId": "01p8d00000QxK6QAAV",
+          "apexTestClassId": "01p8d00000QxK6kAAF",
+          "apexTestMethodName": "testSumOfPositiveInteger",
+          "numLinesCovered": 9,
+          "numLinesUncovered": 8,
+          "percentage": "53%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              12,
+              19,
+              20,
+              21,
+              24,
+              25,
+              26,
+              30
+            ],
+            "uncoveredLines": [
+              3,
+              4,
+              5,
+              7,
+              9,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QxK6QAAV",
+      "name": "OperationsHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 17,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        12,
+        14,
+        15,
+        16,
+        19,
+        20,
+        21,
+        24,
+        25,
+        26,
+        30
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

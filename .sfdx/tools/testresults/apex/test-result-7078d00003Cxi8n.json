@@ -1,0 +1,242 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Apr 21 2023 11:21:29",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 209,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003Cxi8n",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 42,
+    "coveredLines": 33,
+    "testRunCoverage": "79%",
+    "orgWideCoverage": "58%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002JzFrEAK",
+      "queueItemId": "7098d000000V135AAC",
+      "stackTrace": "External entry point",
+      "message": "System.UnexpectedException: No more than one executeBatch can be called from within a test method.  Please make sure the iterable returned from your start method matches the batch size, resulting in one executeBatch invocation.",
+      "asyncApexJobId": "7078d00003Cxi8nAAB",
+      "methodName": "testDescriptionUpdate",
+      "outcome": "Fail",
+      "apexLogId": "07L8d000006L4i6EAC",
+      "apexClass": {
+        "id": "01p8d00000QxB4nAAF",
+        "name": "AccountsBatchTest",
+        "namespacePrefix": null,
+        "fullName": "AccountsBatchTest"
+      },
+      "runTime": 14499,
+      "testTimestamp": "2023-04-21T10:21:30.000+0000",
+      "fullName": "AccountsBatchTest.testDescriptionUpdate",
+      "diagnostic": {
+        "exceptionMessage": "System.UnexpectedException: No more than one executeBatch can be called from within a test method.  Please make sure the iterable returned from your start method matches the batch size, resulting in one executeBatch invocation.",
+        "exceptionStackTrace": "External entry point",
+        "compileProblem": ""
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000QxB4nAAF",
+          "apexTestMethodName": "testDescriptionUpdate",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              6,
+              7,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountsBatch",
+          "apexClassOrTriggerId": "01p8d00000Qx9oHAAR",
+          "apexTestClassId": "01p8d00000QxB4nAAF",
+          "apexTestMethodName": "testDescriptionUpdate",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 9,
+          "percentage": "31%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              5,
+              7
+            ],
+            "uncoveredLines": [
+              8,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              21,
+              24
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000QxB4nAAF",
+          "apexTestMethodName": "testDescriptionUpdate",
+          "numLinesCovered": 16,
+          "numLinesUncovered": 4,
+          "percentage": "80%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              5,
+              6,
+              10,
+              11,
+              16,
+              17,
+              21,
+              22,
+              27,
+              30,
+              32,
+              34,
+              39,
+              42,
+              48
+            ],
+            "uncoveredLines": [
+              18,
+              35,
+              45,
+              46
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000QxB4nAAF",
+          "apexTestMethodName": "testDescriptionUpdate",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              7,
+              8
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000Qx9oHAAR",
+      "name": "AccountsBatch",
+      "type": "ApexClass",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 9,
+      "percentage": "31%",
+      "coveredLines": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "uncoveredLines": [
+        8,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        21,
+        24
+      ]
+    },
+    {
+      "apexId": "01p8d00000QwLVPAA3",
+      "name": "AccountTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 20,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        5,
+        6,
+        10,
+        11,
+        16,
+        17,
+        18,
+        21,
+        22,
+        27,
+        30,
+        32,
+        34,
+        35,
+        39,
+        42,
+        45,
+        46,
+        48
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8d000000hsDaAAI",
+      "name": "AccountTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        5,
+        7,
+        8
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000Qwv84AAB",
+      "name": "AccountUpdateHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

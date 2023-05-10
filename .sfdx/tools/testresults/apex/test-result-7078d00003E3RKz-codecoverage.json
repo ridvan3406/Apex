@@ -1,0 +1,36 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "OperationsHelper",
+      "apexClassOrTriggerId": "01p8d00000QxK6QAAV",
+      "apexTestClassId": "01p8d00000QxK6kAAF",
+      "apexTestMethodName": "testLargestOutofTwoNumbers",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 11,
+      "percentage": "35%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        "uncoveredLines": [
+          12,
+          14,
+          15,
+          16,
+          19,
+          20,
+          21,
+          24,
+          25,
+          26,
+          30
+        ]
+      }
+    }
+  ]
+]

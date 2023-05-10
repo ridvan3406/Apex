@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "RankHandler",
+      "apexClassOrTriggerId": "01p8d00000QxK6aAAF",
+      "apexTestClassId": "01p8d00000QxK6fAAF",
+      "apexTestMethodName": "testRankPrizeSwitch",
+      "numLinesCovered": 14,
+      "numLinesUncovered": 11,
+      "percentage": "56%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          22,
+          23,
+          24,
+          25,
+          26,
+          28,
+          29,
+          31,
+          32,
+          34,
+          35,
+          38,
+          41
+        ],
+        "uncoveredLines": [
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          15,
+          20
+        ]
+      }
+    }
+  ],
+  [
+    {
+      "apexClassOrTriggerName": "RankHandler",
+      "apexClassOrTriggerId": "01p8d00000QxK6aAAF",
+      "apexTestClassId": "01p8d00000QxK6fAAF",
+      "apexTestMethodName": "testRankPrize",
+      "numLinesCovered": 12,
+      "numLinesUncovered": 13,
+      "percentage": "48%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          15,
+          20
+        ],
+        "uncoveredLines": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          28,
+          29,
+          31,
+          32,
+          34,
+          35,
+          38,
+          41
+        ]
+      }
+    }
+  ]
+]

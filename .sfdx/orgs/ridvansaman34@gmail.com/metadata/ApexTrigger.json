@@ -1,0 +1,83 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0058d000005gLuVAAU",
+      "createdByName": "Ridvan Saman",
+      "createdDate": "2023-04-04T16:14:23.000Z",
+      "fileName": "triggers/CaseTrigger.trigger",
+      "fullName": "CaseTrigger",
+      "id": "01q8d000000htcFAAQ",
+      "lastModifiedById": "0058d000005gLuVAAU",
+      "lastModifiedByName": "Ridvan Saman",
+      "lastModifiedDate": "2023-04-04T16:19:13.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0058d000005gLuVAAU",
+      "createdByName": "Ridvan Saman",
+      "createdDate": "2023-03-29T13:03:13.000Z",
+      "fileName": "triggers/ContactTrigger.trigger",
+      "fullName": "ContactTrigger",
+      "id": "01q8d000000hsDzAAI",
+      "lastModifiedById": "0058d000005gLuVAAU",
+      "lastModifiedByName": "Ridvan Saman",
+      "lastModifiedDate": "2023-04-04T11:37:28.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0058d000005gLuVAAU",
+      "createdByName": "Ridvan Saman",
+      "createdDate": "2023-04-25T17:31:57.000Z",
+      "fileName": "triggers/ContactTrigger2.trigger",
+      "fullName": "ContactTrigger2",
+      "id": "01q8d000000hwc7AAA",
+      "lastModifiedById": "0058d000005gLuVAAU",
+      "lastModifiedByName": "Ridvan Saman",
+      "lastModifiedDate": "2023-04-26T16:54:36.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0058d000005gLuVAAU",
+      "createdByName": "Ridvan Saman",
+      "createdDate": "2023-04-25T10:39:29.000Z",
+      "fileName": "triggers/CaseTrigger2.trigger",
+      "fullName": "CaseTrigger2",
+      "id": "01q8d000000hwXGAAY",
+      "lastModifiedById": "0058d000005gLuVAAU",
+      "lastModifiedByName": "Ridvan Saman",
+      "lastModifiedDate": "2023-04-25T12:21:27.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0058d000005gLuVAAU",
+      "createdByName": "Ridvan Saman",
+      "createdDate": "2023-03-29T10:35:57.000Z",
+      "fileName": "triggers/AccountTrigger.trigger",
+      "fullName": "AccountTrigger",
+      "id": "01q8d000000hsDaAAI",
+      "lastModifiedById": "0058d000005gLuVAAU",
+      "lastModifiedByName": "Ridvan Saman",
+      "lastModifiedDate": "2023-04-24T13:44:48.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0058d000005gLuVAAU",
+      "createdByName": "Ridvan Saman",
+      "createdDate": "2023-04-02T14:39:38.000Z",
+      "fileName": "triggers/SalesforceProjectTrigger.trigger",
+      "fullName": "SalesforceProjectTrigger",
+      "id": "01q8d000000hsfAAAQ",
+      "lastModifiedById": "0058d000005gLuVAAU",
+      "lastModifiedByName": "Ridvan Saman",
+      "lastModifiedDate": "2023-04-19T16:13:19.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}

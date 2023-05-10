@@ -1,0 +1,79 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Apr 24 2023 17:36:07",
+    "testExecutionTimeInMs": 31,
+    "testTotalTimeInMs": 31,
+    "commandTimeInMs": 184,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003E3MBo",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 2,
+    "coveredLines": 2,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "56%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002K1CkEAK",
+      "queueItemId": "7098d000000V1ACAA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003E3MBoAAN",
+      "methodName": "testForStudent",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxK28AAF",
+        "name": "TestPracticeTest",
+        "namespacePrefix": null,
+        "fullName": "TestPracticeTest"
+      },
+      "runTime": 31,
+      "testTimestamp": "2023-04-24T16:36:07.000+0000",
+      "fullName": "TestPracticeTest.testForStudent",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "TestPractice",
+          "apexClassOrTriggerId": "01p8d00000QxJxvAAF",
+          "apexTestClassId": "01p8d00000QxK28AAF",
+          "apexTestMethodName": "testForStudent",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              7,
+              9
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QxJxvAAF",
+      "name": "TestPractice",
+      "type": "ApexClass",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        7,
+        9
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

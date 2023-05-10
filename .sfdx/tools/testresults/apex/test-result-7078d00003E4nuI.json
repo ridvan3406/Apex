@@ -1,0 +1,159 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Apr 25 2023 13:40:46",
+    "testExecutionTimeInMs": 473,
+    "testTotalTimeInMs": 473,
+    "commandTimeInMs": 153,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003E4nuI",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 17,
+    "coveredLines": 9,
+    "testRunCoverage": "53%",
+    "orgWideCoverage": "62%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002K2JcEAK",
+      "queueItemId": "7098d000000V1ESAA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003E4nuIAAR",
+      "methodName": "testCaseTrigger",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxMMMAA3",
+        "name": "CaseTrigger2Test",
+        "namespacePrefix": null,
+        "fullName": "CaseTrigger2Test"
+      },
+      "runTime": 473,
+      "testTimestamp": "2023-04-25T12:40:47.000+0000",
+      "fullName": "CaseTrigger2Test.testCaseTrigger",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "CaseTrigger2Handler",
+          "apexClassOrTriggerId": "01p8d00000QxLvtAAF",
+          "apexTestClassId": "01p8d00000QxMMMAA3",
+          "apexTestMethodName": "testCaseTrigger",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 8,
+          "percentage": "47%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              7,
+              10,
+              12,
+              17,
+              19,
+              30
+            ],
+            "uncoveredLines": [
+              13,
+              21,
+              22,
+              23,
+              24,
+              25,
+              27,
+              31
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseTrigger",
+          "apexClassOrTriggerId": "01q8d000000htcFAAQ",
+          "apexTestClassId": "01p8d00000QxMMMAA3",
+          "apexTestMethodName": "testCaseTrigger",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 0,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseTrigger2",
+          "apexClassOrTriggerId": "01q8d000000hwXGAAY",
+          "apexTestClassId": "01p8d00000QxMMMAA3",
+          "apexTestMethodName": "testCaseTrigger",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01q8d000000hwXGAAY",
+      "name": "CaseTrigger2",
+      "type": "ApexTrigger",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        4
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000QxLvtAAF",
+      "name": "CaseTrigger2Handler",
+      "type": "ApexClass",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 8,
+      "percentage": "47%",
+      "coveredLines": [
+        2,
+        7,
+        10,
+        12,
+        17,
+        19,
+        30
+      ],
+      "uncoveredLines": [
+        13,
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        31
+      ]
+    },
+    {
+      "apexId": "01q8d000000htcFAAQ",
+      "name": "CaseTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 0,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": []
+    }
+  ]
+}

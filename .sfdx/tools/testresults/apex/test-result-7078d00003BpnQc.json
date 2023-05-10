@@ -1,0 +1,196 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Apr 19 2023 17:34:34",
+    "testExecutionTimeInMs": 305,
+    "testTotalTimeInMs": 305,
+    "commandTimeInMs": 702,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003BpnQc",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 47,
+    "coveredLines": 28,
+    "testRunCoverage": "60%",
+    "orgWideCoverage": "55%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002JxvCEAS",
+      "queueItemId": "7098d000000V0yBAAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003BpnQcAAJ",
+      "methodName": "testMethod1",
+      "outcome": "Pass",
+      "apexLogId": "07L8d000006KzzMEAS",
+      "apexClass": {
+        "id": "01p8d00000Qx7J1AAJ",
+        "name": "SPTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "SPTriggerHandlerTest"
+      },
+      "runTime": 305,
+      "testTimestamp": "2023-04-19T16:34:35.000+0000",
+      "fullName": "SPTriggerHandlerTest.testMethod1",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "SalesforceProjectTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsfAAAQ",
+          "apexTestClassId": "01p8d00000Qx7J1AAJ",
+          "apexTestMethodName": "testMethod1",
+          "numLinesCovered": 8,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              9,
+              12,
+              13
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "SalesforceProjectTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwOdHAAV",
+          "apexTestClassId": "01p8d00000Qx7J1AAJ",
+          "apexTestMethodName": "testMethod1",
+          "numLinesCovered": 20,
+          "numLinesUncovered": 19,
+          "percentage": "51%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15,
+              16,
+              52,
+              53,
+              54,
+              55,
+              57,
+              59,
+              64,
+              65,
+              66,
+              67,
+              70
+            ],
+            "uncoveredLines": [
+              27,
+              29,
+              30,
+              31,
+              32,
+              33,
+              38,
+              43,
+              44,
+              46,
+              47,
+              68,
+              72,
+              78,
+              79,
+              81,
+              83,
+              84,
+              86
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QwOdHAAV",
+      "name": "SalesforceProjectTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 20,
+      "numLinesUncovered": 19,
+      "percentage": "51%",
+      "coveredLines": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        52,
+        53,
+        54,
+        55,
+        57,
+        59,
+        64,
+        65,
+        66,
+        67,
+        70
+      ],
+      "uncoveredLines": [
+        27,
+        29,
+        30,
+        31,
+        32,
+        33,
+        38,
+        43,
+        44,
+        46,
+        47,
+        68,
+        72,
+        78,
+        79,
+        81,
+        83,
+        84,
+        86
+      ]
+    },
+    {
+      "apexId": "01q8d000000hsfAAAQ",
+      "name": "SalesforceProjectTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 8,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        12,
+        13
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

@@ -8,6 +8,12 @@ if (trigger.isAfter && trigger.isUpdate) {
     AccountTriggerHandler.updateVIPForAllContacts(trigger.New, trigger.Old, trigger.NewMap, trigger.OldMap);
 }
 
+if (trigger.isAfter && trigger.isInsert) {
+    // AccountsQueueableExample aqe = new AccountsQueueableExample (trigger.New);
+    // Id jobId = system.enqueueJob(aqe);
+    // System.debug('job id is  = ' + jobId );
+}
+
 
 //     System.debug('========TRIGGER STARTS============');
   

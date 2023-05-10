@@ -1,0 +1,36 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "OperationsHelper",
+      "apexClassOrTriggerId": "01p8d00000QxK6QAAV",
+      "apexTestClassId": "01p8d00000QxK6kAAF",
+      "apexTestMethodName": "smallestOutOfThreeNumbers",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 13,
+      "percentage": "24%",
+      "coverage": {
+        "coveredLines": [
+          12,
+          14,
+          15,
+          16
+        ],
+        "uncoveredLines": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          19,
+          20,
+          21,
+          24,
+          25,
+          26,
+          30
+        ]
+      }
+    }
+  ]
+]

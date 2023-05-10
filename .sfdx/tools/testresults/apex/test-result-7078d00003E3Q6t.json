@@ -1,0 +1,135 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Apr 24 2023 18:42:58",
+    "testExecutionTimeInMs": 30,
+    "testTotalTimeInMs": 30,
+    "commandTimeInMs": 156,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003E3Q6t",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 25,
+    "coveredLines": 12,
+    "testRunCoverage": "48%",
+    "orgWideCoverage": "52%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002K1DxEAK",
+      "queueItemId": "7098d000000V1AbAAK",
+      "stackTrace": "Class.RankHandlerTest.testRankPrizeSwitch: line 35, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: top 10 certifications, Actual: Top 10 certifications",
+      "asyncApexJobId": "7078d00003E3Q6tAAF",
+      "methodName": "testRankPrizeSwitch",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxK6fAAF",
+        "name": "RankHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "RankHandlerTest"
+      },
+      "runTime": 30,
+      "testTimestamp": "2023-04-24T17:42:58.000+0000",
+      "fullName": "RankHandlerTest.testRankPrizeSwitch",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: top 10 certifications, Actual: Top 10 certifications",
+        "exceptionStackTrace": "Class.RankHandlerTest.testRankPrizeSwitch: line 35, column 1",
+        "className": "RankHandlerTest",
+        "compileProblem": "",
+        "lineNumber": 35,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "RankHandler",
+          "apexClassOrTriggerId": "01p8d00000QxK6aAAF",
+          "apexTestClassId": "01p8d00000QxK6fAAF",
+          "apexTestMethodName": "testRankPrizeSwitch",
+          "numLinesCovered": 12,
+          "numLinesUncovered": 13,
+          "percentage": "48%",
+          "coverage": {
+            "coveredLines": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              29,
+              31,
+              32,
+              34,
+              35,
+              41
+            ],
+            "uncoveredLines": [
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13,
+              15,
+              20,
+              38
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QxK6aAAF",
+      "name": "RankHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 12,
+      "numLinesUncovered": 13,
+      "percentage": "48%",
+      "coveredLines": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        31,
+        32,
+        34,
+        35,
+        41
+      ],
+      "uncoveredLines": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        15,
+        20,
+        38
+      ]
+    }
+  ]
+}

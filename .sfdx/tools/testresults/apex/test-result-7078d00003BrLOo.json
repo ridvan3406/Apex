@@ -1,0 +1,488 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 1,
+    "failing": 2,
+    "skipped": 0,
+    "passRate": "33%",
+    "failRate": "67%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Apr 20 2023 15:05:00",
+    "testExecutionTimeInMs": 1450,
+    "testTotalTimeInMs": 1450,
+    "commandTimeInMs": 214,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003BrLOo",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 40,
+    "coveredLines": 36,
+    "testRunCoverage": "90%",
+    "orgWideCoverage": "59%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002JynOEAS",
+      "queueItemId": "7098d000000V119AAC",
+      "stackTrace": "Class.updateRecord.insertRelatedRecord: line 16, column 1\nClass.updateRecordTest.testInsertRelatedRecord: line 45, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7078d00003BrLOoAAN",
+      "methodName": "testInsertRelatedRecord",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QwvdTAAR",
+        "name": "updateRecordTest",
+        "namespacePrefix": null,
+        "fullName": "updateRecordTest"
+      },
+      "runTime": 1156,
+      "testTimestamp": "2023-04-20T14:05:00.000+0000",
+      "fullName": "updateRecordTest.testInsertRelatedRecord",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.updateRecord.insertRelatedRecord: line 16, column 1\nClass.updateRecordTest.testInsertRelatedRecord: line 45, column 1",
+        "className": "updateRecord",
+        "compileProblem": "",
+        "lineNumber": 16,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testInsertRelatedRecord",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              6,
+              7,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testInsertRelatedRecord",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              7,
+              8
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testInsertRelatedRecord",
+          "numLinesCovered": 14,
+          "numLinesUncovered": 6,
+          "percentage": "70%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              5,
+              6,
+              10,
+              16,
+              17,
+              21,
+              27,
+              30,
+              32,
+              34,
+              39,
+              42,
+              48
+            ],
+            "uncoveredLines": [
+              11,
+              18,
+              22,
+              35,
+              45,
+              46
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "updateRecord",
+          "apexClassOrTriggerId": "01p8d00000Qw7v3AAB",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testInsertRelatedRecord",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 9,
+          "percentage": "18%",
+          "coverage": {
+            "coveredLines": [
+              14,
+              16
+            ],
+            "uncoveredLines": [
+              2,
+              4,
+              7,
+              8,
+              10,
+              19,
+              20,
+              21,
+              25
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8d000002JynPEAS",
+      "queueItemId": "7098d000000V119AAC",
+      "stackTrace": "Class.updateRecord.insertRelatedRecord: line 16, column 1\nClass.updateRecordTest.testInsertRelatedRecord_AccountNotFound: line 57, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7078d00003BrLOoAAN",
+      "methodName": "testInsertRelatedRecord_AccountNotFound",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QwvdTAAR",
+        "name": "updateRecordTest",
+        "namespacePrefix": null,
+        "fullName": "updateRecordTest"
+      },
+      "runTime": 12,
+      "testTimestamp": "2023-04-20T14:05:01.000+0000",
+      "fullName": "updateRecordTest.testInsertRelatedRecord_AccountNotFound",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.updateRecord.insertRelatedRecord: line 16, column 1\nClass.updateRecordTest.testInsertRelatedRecord_AccountNotFound: line 57, column 1",
+        "className": "updateRecord",
+        "compileProblem": "",
+        "lineNumber": 16,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testInsertRelatedRecord_AccountNotFound",
+          "numLinesCovered": 1,
+          "numLinesUncovered": 4,
+          "percentage": "20%",
+          "coverage": {
+            "coveredLines": [
+              3
+            ],
+            "uncoveredLines": [
+              4,
+              6,
+              7,
+              10
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testInsertRelatedRecord_AccountNotFound",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 4,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              3,
+              5,
+              7,
+              8
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testInsertRelatedRecord_AccountNotFound",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 18,
+          "percentage": "10%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              27
+            ],
+            "uncoveredLines": [
+              5,
+              6,
+              10,
+              11,
+              16,
+              17,
+              18,
+              21,
+              22,
+              30,
+              32,
+              34,
+              35,
+              39,
+              42,
+              45,
+              46,
+              48
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "updateRecord",
+          "apexClassOrTriggerId": "01p8d00000Qw7v3AAB",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testInsertRelatedRecord_AccountNotFound",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 9,
+          "percentage": "18%",
+          "coverage": {
+            "coveredLines": [
+              14,
+              16
+            ],
+            "uncoveredLines": [
+              2,
+              4,
+              7,
+              8,
+              10,
+              19,
+              20,
+              21,
+              25
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8d000002JynQEAS",
+      "queueItemId": "7098d000000V119AAC",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003BrLOoAAN",
+      "methodName": "testUpdateDML",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QwvdTAAR",
+        "name": "updateRecordTest",
+        "namespacePrefix": null,
+        "fullName": "updateRecordTest"
+      },
+      "runTime": 282,
+      "testTimestamp": "2023-04-20T14:05:01.000+0000",
+      "fullName": "updateRecordTest.testUpdateDML",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testUpdateDML",
+          "numLinesCovered": 14,
+          "numLinesUncovered": 6,
+          "percentage": "70%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              5,
+              6,
+              10,
+              16,
+              17,
+              21,
+              27,
+              30,
+              32,
+              34,
+              39,
+              42,
+              48
+            ],
+            "uncoveredLines": [
+              11,
+              18,
+              22,
+              35,
+              45,
+              46
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testUpdateDML",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              7,
+              8
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testUpdateDML",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              6,
+              7,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "updateRecord",
+          "apexClassOrTriggerId": "01p8d00000Qw7v3AAB",
+          "apexTestClassId": "01p8d00000QwvdTAAR",
+          "apexTestMethodName": "testUpdateDML",
+          "numLinesCovered": 6,
+          "numLinesUncovered": 5,
+          "percentage": "55%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              7,
+              8,
+              10,
+              14
+            ],
+            "uncoveredLines": [
+              16,
+              19,
+              20,
+              21,
+              25
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000Qw7v3AAB",
+      "name": "updateRecord",
+      "type": "ApexClass",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 4,
+      "percentage": "64%",
+      "coveredLines": [
+        2,
+        4,
+        7,
+        8,
+        10,
+        14,
+        16
+      ],
+      "uncoveredLines": [
+        19,
+        20,
+        21,
+        25
+      ]
+    },
+    {
+      "apexId": "01p8d00000QwLVPAA3",
+      "name": "AccountTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 20,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        5,
+        6,
+        10,
+        11,
+        16,
+        17,
+        18,
+        21,
+        22,
+        27,
+        30,
+        32,
+        34,
+        35,
+        39,
+        42,
+        45,
+        46,
+        48
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8d000000hsDaAAI",
+      "name": "AccountTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        5,
+        7,
+        8
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000Qwv84AAB",
+      "name": "AccountUpdateHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

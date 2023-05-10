@@ -1,0 +1,20 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "TestPractice",
+      "apexClassOrTriggerId": "01p8d00000QxJxvAAF",
+      "apexTestClassId": "01p8d00000QxK28AAF",
+      "apexTestMethodName": "testForStudent",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          7,
+          9
+        ],
+        "uncoveredLines": []
+      }
+    }
+  ]
+]

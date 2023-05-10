@@ -1,0 +1,36 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "OperationsHelper",
+      "apexClassOrTriggerId": "01p8d00000QxK6QAAV",
+      "apexTestClassId": "01p8d00000QxK6kAAF",
+      "apexTestMethodName": "testSumOfPositiveInteger",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 10,
+      "percentage": "41%",
+      "coverage": {
+        "coveredLines": [
+          19,
+          20,
+          21,
+          24,
+          25,
+          26,
+          30
+        ],
+        "uncoveredLines": [
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          12,
+          14,
+          15,
+          16
+        ]
+      }
+    }
+  ]
+]

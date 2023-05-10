@@ -1,0 +1,111 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Apr 24 2023 19:01:16",
+    "testExecutionTimeInMs": 26,
+    "testTotalTimeInMs": 26,
+    "commandTimeInMs": 974,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003E3NNh",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 17,
+    "coveredLines": 4,
+    "testRunCoverage": "24%",
+    "orgWideCoverage": "58%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002K1EgEAK",
+      "queueItemId": "7098d000000V1BKAA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003E3NNhAAN",
+      "methodName": "smallestOutOfThreeNumbers",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxK6kAAF",
+        "name": "OperationsHelperTest",
+        "namespacePrefix": null,
+        "fullName": "OperationsHelperTest"
+      },
+      "runTime": 26,
+      "testTimestamp": "2023-04-24T18:01:16.000+0000",
+      "fullName": "OperationsHelperTest.smallestOutOfThreeNumbers",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OperationsHelper",
+          "apexClassOrTriggerId": "01p8d00000QxK6QAAV",
+          "apexTestClassId": "01p8d00000QxK6kAAF",
+          "apexTestMethodName": "smallestOutOfThreeNumbers",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 13,
+          "percentage": "24%",
+          "coverage": {
+            "coveredLines": [
+              12,
+              14,
+              15,
+              16
+            ],
+            "uncoveredLines": [
+              2,
+              3,
+              4,
+              5,
+              7,
+              9,
+              19,
+              20,
+              21,
+              24,
+              25,
+              26,
+              30
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QxK6QAAV",
+      "name": "OperationsHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 13,
+      "percentage": "24%",
+      "coveredLines": [
+        12,
+        14,
+        15,
+        16
+      ],
+      "uncoveredLines": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        19,
+        20,
+        21,
+        24,
+        25,
+        26,
+        30
+      ]
+    }
+  ]
+}

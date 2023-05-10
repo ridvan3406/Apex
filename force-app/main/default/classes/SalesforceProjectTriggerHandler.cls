@@ -1,4 +1,5 @@
 public class SalesforceProjectTriggerHandler {
+   
     public static void createDefultSalesforceTicket(List<salesforce_project__c> spTriggerNew,
                                                     List<salesforce_project__c> spTriggerOld,
                                                     Map<id,salesforce_project__c> spTriggerNewMap,
@@ -55,4 +56,34 @@ public class SalesforceProjectTriggerHandler {
         }
         update listSP;
     }
+    public static void spCompletedStatus(List<Salesforce_Project__c> spTriggerNew,
+                                        List<Salesforce_Project__c> spTriggerOld,
+                                        Map<Id,salesforce_project__c> spTriggerNewMap,
+                                        Map<Id,salesforce_project__c> spTriggerOldMap) {
+    
+            Set<Id> spIds = new set<id>();
+            for (Salesforce_Project__c spRecords : spTriggerNew ) {
+                Salesforce_Project__c spOld = spTriggerOldMap.get(spRecords.Id);
+                if (spRecords.status__c == 'Completed' && spOld.status__c != 'Completed') {
+                    spIds.add(spRecords.Id);
+                }
+            if (!spIds.isEmpty()) {
+                //here we call the future method
+                updateTicketStatusCompleted(spIds);
+            }
+            }
+    }
+
+    @future
+    public static void updateTicketStatusCompleted(Set<Id> spIds) {
+        List<Salesforce_Ticket__c> listST = [SELECT id,status__c,salesforce_project__c
+                                            FROM Salesforce_Ticket__c
+                                            WHERE salesforce_project__c in :spIds
+                                            AND status__c != 'Completed' ];
+        for (salesforce_ticket__c eachTicketRecord : listST) {
+            eachTicketRecord.status__c = 'Completed';
+        }
+        update listST;
+    }
+   
 }

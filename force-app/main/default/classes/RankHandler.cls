@@ -35,7 +35,7 @@ public class RankHandler {
                 prize='Top 10 certifications';
             }
             when else{
-                prize='Participation';
+                prize='Thank you for Participation';
             }
         }
         return prize;

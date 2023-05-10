@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Apr 24 2023 19:04:02",
+    "testExecutionTimeInMs": 26,
+    "testTotalTimeInMs": 26,
+    "commandTimeInMs": 154,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003E3OyH",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 17,
+    "coveredLines": 7,
+    "testRunCoverage": "41%",
+    "orgWideCoverage": "59%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002K1EqEAK",
+      "queueItemId": "7098d000000V1BUAA0",
+      "stackTrace": "Class.OperationsHelperTest.testSumOfPositiveInteger: line 22, column 1",
+      "message": "System.AssertException: Assertion Failed: Expected: 3, Actual: 6",
+      "asyncApexJobId": "7078d00003E3OyHAAV",
+      "methodName": "testSumOfPositiveInteger",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxK6kAAF",
+        "name": "OperationsHelperTest",
+        "namespacePrefix": null,
+        "fullName": "OperationsHelperTest"
+      },
+      "runTime": 26,
+      "testTimestamp": "2023-04-24T18:04:03.000+0000",
+      "fullName": "OperationsHelperTest.testSumOfPositiveInteger",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Expected: 3, Actual: 6",
+        "exceptionStackTrace": "Class.OperationsHelperTest.testSumOfPositiveInteger: line 22, column 1",
+        "className": "OperationsHelperTest",
+        "compileProblem": "",
+        "lineNumber": 22,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OperationsHelper",
+          "apexClassOrTriggerId": "01p8d00000QxK6QAAV",
+          "apexTestClassId": "01p8d00000QxK6kAAF",
+          "apexTestMethodName": "testSumOfPositiveInteger",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 10,
+          "percentage": "41%",
+          "coverage": {
+            "coveredLines": [
+              19,
+              20,
+              21,
+              24,
+              25,
+              26,
+              30
+            ],
+            "uncoveredLines": [
+              2,
+              3,
+              4,
+              5,
+              7,
+              9,
+              12,
+              14,
+              15,
+              16
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QxK6QAAV",
+      "name": "OperationsHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 10,
+      "percentage": "41%",
+      "coveredLines": [
+        19,
+        20,
+        21,
+        24,
+        25,
+        26,
+        30
+      ],
+      "uncoveredLines": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        12,
+        14,
+        15,
+        16
+      ]
+    }
+  ]
+}

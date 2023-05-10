@@ -1,0 +1,157 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Apr 25 2023 13:56:07",
+    "testExecutionTimeInMs": 3040,
+    "testTotalTimeInMs": 3040,
+    "commandTimeInMs": 187,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003E4qKQ",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 17,
+    "coveredLines": 17,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "65%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002K2cKEAS",
+      "queueItemId": "7098d000000V1GnAAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003E4qKQAAZ",
+      "methodName": "testMethodChildCase",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxMYpAAN",
+        "name": "CaseTrigger2HandlerTest",
+        "namespacePrefix": null,
+        "fullName": "CaseTrigger2HandlerTest"
+      },
+      "runTime": 3040,
+      "testTimestamp": "2023-04-25T12:56:07.000+0000",
+      "fullName": "CaseTrigger2HandlerTest.testMethodChildCase",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "CaseTrigger",
+          "apexClassOrTriggerId": "01q8d000000htcFAAQ",
+          "apexTestClassId": "01p8d00000QxMYpAAN",
+          "apexTestMethodName": "testMethodChildCase",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 0,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseTrigger2",
+          "apexClassOrTriggerId": "01q8d000000hwXGAAY",
+          "apexTestClassId": "01p8d00000QxMYpAAN",
+          "apexTestMethodName": "testMethodChildCase",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseTrigger2Handler",
+          "apexClassOrTriggerId": "01p8d00000QxLvtAAF",
+          "apexTestClassId": "01p8d00000QxMYpAAN",
+          "apexTestMethodName": "testMethodChildCase",
+          "numLinesCovered": 15,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              7,
+              10,
+              12,
+              13,
+              18,
+              20,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              31,
+              32
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01q8d000000hwXGAAY",
+      "name": "CaseTrigger2",
+      "type": "ApexTrigger",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        4
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000QxLvtAAF",
+      "name": "CaseTrigger2Handler",
+      "type": "ApexClass",
+      "numLinesCovered": 15,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        7,
+        10,
+        12,
+        13,
+        18,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        31,
+        32
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8d000000htcFAAQ",
+      "name": "CaseTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 0,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": []
+    }
+  ]
+}

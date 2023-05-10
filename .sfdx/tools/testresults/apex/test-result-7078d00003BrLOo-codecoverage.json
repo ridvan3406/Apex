@@ -1,0 +1,303 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "AccountUpdateHelper",
+      "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testInsertRelatedRecord",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          4,
+          6,
+          7,
+          10
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountTrigger",
+      "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testInsertRelatedRecord",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          5,
+          7,
+          8
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountTriggerHandler",
+      "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testInsertRelatedRecord",
+      "numLinesCovered": 14,
+      "numLinesUncovered": 6,
+      "percentage": "70%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          5,
+          6,
+          10,
+          16,
+          17,
+          21,
+          27,
+          30,
+          32,
+          34,
+          39,
+          42,
+          48
+        ],
+        "uncoveredLines": [
+          11,
+          18,
+          22,
+          35,
+          45,
+          46
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "updateRecord",
+      "apexClassOrTriggerId": "01p8d00000Qw7v3AAB",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testInsertRelatedRecord",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 9,
+      "percentage": "18%",
+      "coverage": {
+        "coveredLines": [
+          14,
+          16
+        ],
+        "uncoveredLines": [
+          2,
+          4,
+          7,
+          8,
+          10,
+          19,
+          20,
+          21,
+          25
+        ]
+      }
+    }
+  ],
+  [
+    {
+      "apexClassOrTriggerName": "AccountUpdateHelper",
+      "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testInsertRelatedRecord_AccountNotFound",
+      "numLinesCovered": 1,
+      "numLinesUncovered": 4,
+      "percentage": "20%",
+      "coverage": {
+        "coveredLines": [
+          3
+        ],
+        "uncoveredLines": [
+          4,
+          6,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountTrigger",
+      "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testInsertRelatedRecord_AccountNotFound",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 4,
+      "percentage": "0%",
+      "coverage": {
+        "coveredLines": [],
+        "uncoveredLines": [
+          3,
+          5,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountTriggerHandler",
+      "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testInsertRelatedRecord_AccountNotFound",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 18,
+      "percentage": "10%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          27
+        ],
+        "uncoveredLines": [
+          5,
+          6,
+          10,
+          11,
+          16,
+          17,
+          18,
+          21,
+          22,
+          30,
+          32,
+          34,
+          35,
+          39,
+          42,
+          45,
+          46,
+          48
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "updateRecord",
+      "apexClassOrTriggerId": "01p8d00000Qw7v3AAB",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testInsertRelatedRecord_AccountNotFound",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 9,
+      "percentage": "18%",
+      "coverage": {
+        "coveredLines": [
+          14,
+          16
+        ],
+        "uncoveredLines": [
+          2,
+          4,
+          7,
+          8,
+          10,
+          19,
+          20,
+          21,
+          25
+        ]
+      }
+    }
+  ],
+  [
+    {
+      "apexClassOrTriggerName": "AccountTriggerHandler",
+      "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testUpdateDML",
+      "numLinesCovered": 14,
+      "numLinesUncovered": 6,
+      "percentage": "70%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          5,
+          6,
+          10,
+          16,
+          17,
+          21,
+          27,
+          30,
+          32,
+          34,
+          39,
+          42,
+          48
+        ],
+        "uncoveredLines": [
+          11,
+          18,
+          22,
+          35,
+          45,
+          46
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountTrigger",
+      "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testUpdateDML",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          5,
+          7,
+          8
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountUpdateHelper",
+      "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testUpdateDML",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          4,
+          6,
+          7,
+          10
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "updateRecord",
+      "apexClassOrTriggerId": "01p8d00000Qw7v3AAB",
+      "apexTestClassId": "01p8d00000QwvdTAAR",
+      "apexTestMethodName": "testUpdateDML",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 5,
+      "percentage": "55%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          4,
+          7,
+          8,
+          10,
+          14
+        ],
+        "uncoveredLines": [
+          16,
+          19,
+          20,
+          21,
+          25
+        ]
+      }
+    }
+  ]
+]

@@ -1,0 +1,226 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Wed May 10 2023 12:09:32",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 171,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003KyjzQ",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 37,
+    "coveredLines": 31,
+    "testRunCoverage": "84%",
+    "orgWideCoverage": "46%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002KOsyEAG",
+      "queueItemId": "7098d000000V2gpAAC",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003KyjzQAAR",
+      "methodName": "testQueueable",
+      "outcome": "Pass",
+      "apexLogId": "07L8d000006MIK1EAO",
+      "apexClass": {
+        "id": "01p8d00000Qy1rBAAR",
+        "name": "AccountQueueableTest",
+        "namespacePrefix": null,
+        "fullName": "AccountQueueableTest"
+      },
+      "runTime": 25905,
+      "testTimestamp": "2023-05-10T11:09:33.000+0000",
+      "fullName": "AccountQueueableTest.testQueueable",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000Qy1rBAAR",
+          "apexTestMethodName": "testQueueable",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              7,
+              8,
+              11
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountsQueueableExample",
+          "apexClassOrTriggerId": "01p8d00000QxJWjAAN",
+          "apexTestClassId": "01p8d00000Qy1rBAAR",
+          "apexTestMethodName": "testQueueable",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4,
+              6,
+              7,
+              8,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000Qy1rBAAR",
+          "apexTestMethodName": "testQueueable",
+          "numLinesCovered": 14,
+          "numLinesUncovered": 6,
+          "percentage": "70%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              5,
+              6,
+              10,
+              16,
+              17,
+              21,
+              27,
+              30,
+              32,
+              34,
+              39,
+              42,
+              48
+            ],
+            "uncoveredLines": [
+              11,
+              18,
+              22,
+              35,
+              45,
+              46
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000Qy1rBAAR",
+          "apexTestMethodName": "testQueueable",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              6,
+              7,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QxJWjAAN",
+      "name": "AccountsQueueableExample",
+      "type": "ApexClass",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000QwLVPAA3",
+      "name": "AccountTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 14,
+      "numLinesUncovered": 6,
+      "percentage": "70%",
+      "coveredLines": [
+        2,
+        5,
+        6,
+        10,
+        16,
+        17,
+        21,
+        27,
+        30,
+        32,
+        34,
+        39,
+        42,
+        48
+      ],
+      "uncoveredLines": [
+        11,
+        18,
+        22,
+        35,
+        45,
+        46
+      ]
+    },
+    {
+      "apexId": "01q8d000000hsDaAAI",
+      "name": "AccountTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000Qwv84AAB",
+      "name": "AccountUpdateHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}
