@@ -18,7 +18,9 @@ public class ContactTriggerHandler {
         for (Contact eachContact : contactTriggerNew) {
             contact oldContact =contactTriggerOldMap.get(eachContact.id);
             if (eachContact.LeadSource!=oldContact.LeadSource) {
-            eachContact.LeadSource.addError('Lead source cannot be updated'); //validation error
+                string customErrorMessage = System.Label.Contact_Validation2;//This is a custom Label
+            //eachContact.LeadSource.addError('Lead source cannot be updated'); //validation error
+            eachContact.LeadSource.addError(customErrorMessage); //validation error
             }
         }
     }

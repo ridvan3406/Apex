@@ -4,17 +4,34 @@ public class SalesforceProjectTriggerHandler {
                                                     List<salesforce_project__c> spTriggerOld,
                                                     Map<id,salesforce_project__c> spTriggerNewMap,
                                                     Map<id,salesforce_project__c> spTriggerOldMap) {
+        try {
+            List <Salesforce_Ticket__c> newTicketList = new List<Salesforce_Ticket__c>();
+            for (salesforce_project__c eachProject : spTriggerNew) {
+                Salesforce_Ticket__c newTicket = new Salesforce_Ticket__c();
+                newTicket.Subject__c= 'Default Ticket';
+                newTicket.Salesforce_Project__c= eachProject.id;
+                newTicketList.add(newTicket);
+                newTicket.Priority__c= 'Low';
+            }
+            if (!newTicketList.isEmpty()) {
+                //insert newTicketList;
+                List<Database.SaveResult> results = Database.insert(newTicketList,false);
+                System.debug('result  ===>' + results);
 
-        List <Salesforce_Ticket__c> newTicketList = new List<Salesforce_Ticket__c>();
-        for (salesforce_project__c eachProject : spTriggerNew) {
-            Salesforce_Ticket__c newTicket = new Salesforce_Ticket__c();
-            newTicket.Subject__c= 'Default Ticket';
-            newTicket.Salesforce_Project__c= eachProject.id;
-            newTicketList.add(newTicket);
+                for(Database.SaveResult eachResult : results){
+                    if (eachResult.isSuccess()) {
+                        System.debug('Accounts Inserted Successfully. Account Id: ' + eachResult.getId());
+                    }else{
+                        System.debug('Errors : ' + eachResult.getErrors());
+                    }
+                }
+            }
+        } catch (Exception ex) {
+            for (salesforce_project__c eachProject : spTriggerNew) {
+                eachProject.addError('Salesforce Ticket Creation Failed.Please contact your salesforce administrator.');
+            }
         }
-        if (!newTicketList.isEmpty()) {
-            insert newTicketList;
-        }
+        
     }
 
 //You first loop through all the new projects in the trigger to find the ones that have a status change to 'Completed'. You add these project IDs to a set called setCompletedProjectIds.

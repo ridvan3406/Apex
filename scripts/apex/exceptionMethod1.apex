@@ -2,7 +2,10 @@
 try {
     Account acc =new Account();
     insert acc;
-} catch (Exception ex) {
+} catch (DMLException DMLex) {
+    System.debug('something DML wrong mate');
+}
+catch (Exception ex) {
     System.debug('something went wrong mate');
 }
 
