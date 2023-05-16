@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0058d000005gLuVAAU",
+      "createdByName": "Ridvan Saman",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "customMetadata/Email_Domain.Hotmail.md",
+      "fullName": "Email_Domain.Hotmail",
+      "id": "m008d000000OZYAAA4",
+      "lastModifiedById": "0058d000005gLuVAAU",
+      "lastModifiedByName": "Ridvan Saman",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomMetadata"
+    },
+    {
+      "createdById": "0058d000005gLuVAAU",
+      "createdByName": "Ridvan Saman",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "customMetadata/Email_Domain.Gmail.md",
+      "fullName": "Email_Domain.Gmail",
+      "id": "m008d000000OZY5AAO",
+      "lastModifiedById": "0058d000005gLuVAAU",
+      "lastModifiedByName": "Ridvan Saman",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomMetadata"
+    }
+  ]
+}

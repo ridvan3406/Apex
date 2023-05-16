@@ -9,3 +9,5 @@
 Cat myCat = new Cat('JBL', 'white');
 
 system.debug(myCat);
+
+system.debug('dummyCat');
