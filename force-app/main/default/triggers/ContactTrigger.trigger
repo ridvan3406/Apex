@@ -2,8 +2,8 @@ trigger ContactTrigger on Contact (before insert,before update,after insert,afte
 
     if (Trigger.isBefore && Trigger.isUpdate) {
         //caall method here
-        ContactTriggerHandler.contactUpdateValidation1(Trigger.New,Trigger.Old, Trigger.NewMap, Trigger.OldMap);
-        ContactTriggerHandler.contactUpdateValidation2(Trigger.New,Trigger.Old, Trigger.NewMap, Trigger.OldMap);
+        // ContactTriggerHandler.contactUpdateValidation1(Trigger.New,Trigger.Old, Trigger.NewMap, Trigger.OldMap);
+        // ContactTriggerHandler.contactUpdateValidation2(Trigger.New,Trigger.Old, Trigger.NewMap, Trigger.OldMap);
       
     }
 

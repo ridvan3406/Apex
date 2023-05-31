@@ -1,0 +1,309 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 0,
+    "failing": 3,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Tue May 16 2023 16:35:46",
+    "testExecutionTimeInMs": 112,
+    "testTotalTimeInMs": 112,
+    "commandTimeInMs": 173,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003O4lVR",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 34,
+    "coveredLines": 7,
+    "testRunCoverage": "21%",
+    "orgWideCoverage": "40%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002KWGYEA4",
+      "queueItemId": "7098d000000V340AAC",
+      "stackTrace": "Class.OpportunityTriggerHandlerTest.testCreateProductsOnOppCreation: line 13, column 1",
+      "message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CloseDate]: [CloseDate]",
+      "asyncApexJobId": "7078d00003O4lVRAAZ",
+      "methodName": "testCreateProductsOnOppCreation",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QyKoxAAF",
+        "name": "OpportunityTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OpportunityTriggerHandlerTest"
+      },
+      "runTime": 65,
+      "testTimestamp": "2023-05-16T15:35:46.000+0000",
+      "fullName": "OpportunityTriggerHandlerTest.testCreateProductsOnOppCreation",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CloseDate]: [CloseDate]",
+        "exceptionStackTrace": "Class.OpportunityTriggerHandlerTest.testCreateProductsOnOppCreation: line 13, column 1",
+        "className": "OpportunityTriggerHandlerTest",
+        "compileProblem": "",
+        "lineNumber": 13,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OpportunityTrigger",
+          "apexClassOrTriggerId": "01q8d000000hwdoAAA",
+          "apexTestClassId": "01p8d00000QyKoxAAF",
+          "apexTestMethodName": "testCreateProductsOnOppCreation",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 27,
+          "percentage": "21%",
+          "coverage": {
+            "coveredLines": [
+              10,
+              11,
+              19,
+              51,
+              58,
+              66,
+              70
+            ],
+            "uncoveredLines": [
+              12,
+              14,
+              15,
+              22,
+              24,
+              25,
+              26,
+              27,
+              29,
+              30,
+              34,
+              35,
+              36,
+              37,
+              42,
+              43,
+              44,
+              45,
+              52,
+              53,
+              54,
+              59,
+              60,
+              61,
+              67,
+              72,
+              73
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8d000002KWGZEA4",
+      "queueItemId": "7098d000000V340AAC",
+      "stackTrace": "Class.OpportunityTriggerHandlerTest.testCreateProductsWithInvalidInput: line 38, column 1",
+      "message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CloseDate]: [CloseDate]",
+      "asyncApexJobId": "7078d00003O4lVRAAZ",
+      "methodName": "testCreateProductsWithInvalidInput",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QyKoxAAF",
+        "name": "OpportunityTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OpportunityTriggerHandlerTest"
+      },
+      "runTime": 26,
+      "testTimestamp": "2023-05-16T15:35:46.000+0000",
+      "fullName": "OpportunityTriggerHandlerTest.testCreateProductsWithInvalidInput",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CloseDate]: [CloseDate]",
+        "exceptionStackTrace": "Class.OpportunityTriggerHandlerTest.testCreateProductsWithInvalidInput: line 38, column 1",
+        "className": "OpportunityTriggerHandlerTest",
+        "compileProblem": "",
+        "lineNumber": 38,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OpportunityTrigger",
+          "apexClassOrTriggerId": "01q8d000000hwdoAAA",
+          "apexTestClassId": "01p8d00000QyKoxAAF",
+          "apexTestMethodName": "testCreateProductsWithInvalidInput",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 27,
+          "percentage": "21%",
+          "coverage": {
+            "coveredLines": [
+              10,
+              11,
+              19,
+              51,
+              58,
+              66,
+              70
+            ],
+            "uncoveredLines": [
+              12,
+              14,
+              15,
+              22,
+              24,
+              25,
+              26,
+              27,
+              29,
+              30,
+              34,
+              35,
+              36,
+              37,
+              42,
+              43,
+              44,
+              45,
+              52,
+              53,
+              54,
+              59,
+              60,
+              61,
+              67,
+              72,
+              73
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8d000002KWGaEAO",
+      "queueItemId": "7098d000000V340AAC",
+      "stackTrace": "Class.OpportunityTriggerHandlerTest.testCreateProductsWithNoValidProduct: line 58, column 1",
+      "message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CloseDate]: [CloseDate]",
+      "asyncApexJobId": "7078d00003O4lVRAAZ",
+      "methodName": "testCreateProductsWithNoValidProduct",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QyKoxAAF",
+        "name": "OpportunityTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OpportunityTriggerHandlerTest"
+      },
+      "runTime": 21,
+      "testTimestamp": "2023-05-16T15:35:46.000+0000",
+      "fullName": "OpportunityTriggerHandlerTest.testCreateProductsWithNoValidProduct",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CloseDate]: [CloseDate]",
+        "exceptionStackTrace": "Class.OpportunityTriggerHandlerTest.testCreateProductsWithNoValidProduct: line 58, column 1",
+        "className": "OpportunityTriggerHandlerTest",
+        "compileProblem": "",
+        "lineNumber": 58,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "OpportunityTrigger",
+          "apexClassOrTriggerId": "01q8d000000hwdoAAA",
+          "apexTestClassId": "01p8d00000QyKoxAAF",
+          "apexTestMethodName": "testCreateProductsWithNoValidProduct",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 27,
+          "percentage": "21%",
+          "coverage": {
+            "coveredLines": [
+              10,
+              11,
+              19,
+              51,
+              58,
+              66,
+              70
+            ],
+            "uncoveredLines": [
+              12,
+              14,
+              15,
+              22,
+              24,
+              25,
+              26,
+              27,
+              29,
+              30,
+              34,
+              35,
+              36,
+              37,
+              42,
+              43,
+              44,
+              45,
+              52,
+              53,
+              54,
+              59,
+              60,
+              61,
+              67,
+              72,
+              73
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01q8d000000hwdoAAA",
+      "name": "OpportunityTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 27,
+      "percentage": "21%",
+      "coveredLines": [
+        10,
+        11,
+        19,
+        51,
+        58,
+        66,
+        70
+      ],
+      "uncoveredLines": [
+        12,
+        14,
+        15,
+        22,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        34,
+        35,
+        36,
+        37,
+        42,
+        43,
+        44,
+        45,
+        52,
+        53,
+        54,
+        59,
+        60,
+        61,
+        67,
+        72,
+        73
+      ]
+    }
+  ]
+}

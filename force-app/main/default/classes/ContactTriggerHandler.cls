@@ -6,8 +6,8 @@ public class ContactTriggerHandler {
     
         for (Contact eachContact : contactTriggerNew) {
             contact oldContact =contactTriggerOldMap.get(eachContact.id);
-            if (oldContact.LeadSource=='Partner Referral') {
-                eachContact.addError('Cannot update Partner Referral contacts'); //validation error
+            if (oldContact.LeadSource=='Purchased List') {
+                eachContact.addError('Cannot update Purchased List contacts'); //validation error
             }
         }
    }
@@ -18,7 +18,7 @@ public class ContactTriggerHandler {
         for (Contact eachContact : contactTriggerNew) {
             contact oldContact =contactTriggerOldMap.get(eachContact.id);
             if (eachContact.LeadSource!=oldContact.LeadSource) {
-                string customErrorMessage = System.Label.Contact_Validation2;//This is a custom Label
+                string customErrorMessage = System.Label.Contact_Validation2;
             //eachContact.LeadSource.addError('Lead source cannot be updated'); //validation error
             eachContact.LeadSource.addError(customErrorMessage); //validation error
             }
@@ -40,6 +40,3 @@ public class ContactTriggerHandler {
         update listAccounts;
     }
 }
-
-
-

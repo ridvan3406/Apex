@@ -69,10 +69,5 @@ public with sharing class SalesforceProjectTriggerHandlerTest {
         
 //         Test.stopTest();
 //     }
-
     
 }
-
-   
-
-

@@ -1,0 +1,104 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "AccountTriggerHandler",
+      "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+      "apexTestClassId": "01p8d00000QxB4nAAF",
+      "apexTestMethodName": "testDescriptionUpdate",
+      "numLinesCovered": 16,
+      "numLinesUncovered": 4,
+      "percentage": "80%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          5,
+          6,
+          10,
+          11,
+          16,
+          17,
+          21,
+          22,
+          27,
+          30,
+          32,
+          34,
+          39,
+          42,
+          48
+        ],
+        "uncoveredLines": [
+          18,
+          35,
+          45,
+          46
+        ]
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountUpdateHelper",
+      "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+      "apexTestClassId": "01p8d00000QxB4nAAF",
+      "apexTestMethodName": "testDescriptionUpdate",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          4,
+          6,
+          7,
+          10
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountsBatch",
+      "apexClassOrTriggerId": "01p8d00000Qx9oHAAR",
+      "apexTestClassId": "01p8d00000QxB4nAAF",
+      "apexTestMethodName": "testDescriptionUpdate",
+      "numLinesCovered": 13,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          5,
+          6,
+          8,
+          9,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          22,
+          25
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountTrigger",
+      "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+      "apexTestClassId": "01p8d00000QxB4nAAF",
+      "apexTestMethodName": "testDescriptionUpdate",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          5,
+          7,
+          8,
+          11
+        ],
+        "uncoveredLines": []
+      }
+    }
+  ]
+]

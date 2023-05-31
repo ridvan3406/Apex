@@ -70,4 +70,3 @@ public with sharing class childToParentSOQLTest {
         Test.stopTest();
     }
 }
-

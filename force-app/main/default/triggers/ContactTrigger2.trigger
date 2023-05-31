@@ -1,4 +1,3 @@
-
 trigger ContactTrigger2 on Contact (before insert) {
     if (trigger.isAfter && trigger.isUpdate) {
         //call handler method here

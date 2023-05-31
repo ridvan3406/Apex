@@ -17,7 +17,7 @@ public class updateRecord {
         //2. create contact instance
 
         Contact contact1 = new Contact();
-        contact1.LastName = 'Saman';
+        contact1.LastName = 'Stumuller';
         contact1.AccountId =acc.name;
 
         //3. Dml

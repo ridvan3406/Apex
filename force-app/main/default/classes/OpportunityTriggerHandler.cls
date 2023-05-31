@@ -1,8 +1,5 @@
 public class OpportunityTriggerHandler {
-  public static void createProductsOnOppCreation(
-    List<Opportunity> oppTriggerNew,
-    Map<Id, Opportunity> oppTriggerNewMap
-  ) {
+  public static void createProductsOnOppCreation(List<Opportunity> oppTriggerNew, Map<Id,Opportunity> oppTriggerNewMap) {
     Set<Id> oppIDs = oppTriggerNewMap.keySet();
 
     List<OpportunityLineItem> opportunityLineItems = new List<OpportunityLineItem>();
@@ -12,6 +9,13 @@ public class OpportunityTriggerHandler {
       WHERE ProductCode IN ('SFDC', 'CH')
       LIMIT 2
     ];
+    // PricebookEntry pbEntry = [
+    //     SELECT Id
+    //     FROM PricebookEntry
+    //     WHERE Pricebook2.Name = 'Standard'
+    //     AND Product2.ProductCode = 'SFDC'
+    //     LIMIT 1
+    // ];
 
     System.debug('product2 ==> ' + p2);
     // Iterate through the newly created opportunities

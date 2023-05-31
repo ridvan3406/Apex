@@ -1,4 +1,4 @@
- trigger SalesforceProjectTrigger on Salesforce_Project__c (before insert,after insert,before update,after update) {
+trigger SalesforceProjectTrigger on Salesforce_Project__c (before insert,after insert,before update,after update) {
     if (trigger.isAfter && trigger.isInsert) {
         // call handler method here
         Map<Id,salesforce_project__c> spNewMap = trigger.newMap;

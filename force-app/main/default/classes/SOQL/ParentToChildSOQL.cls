@@ -19,5 +19,6 @@ public class ParentToChildSOQL {
             System.debug('case subjevt: ' + cases.subject);
         }
     }
+
 }
 }

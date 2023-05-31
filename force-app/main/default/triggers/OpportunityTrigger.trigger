@@ -63,9 +63,9 @@ trigger OpportunityTrigger on Opportunity(
     }
   }
   //================================================================//
-  if (Trigger.isInsert && Trigger.isAfter) {
-    OpportunityTriggerHandler.createProductsOnOppCreation(Trigger.New,Trigger.NewMap);
-  }
+  // if (Trigger.isInsert && Trigger.isAfter) {
+  //   OpportunityTriggerHandler.createProductsOnOppCreation(Trigger.New,Trigger.NewMap);
+  // }
 
   if (!accIds.isEmpty()) {
     System.debug('=======accIds===========' + accIds);
