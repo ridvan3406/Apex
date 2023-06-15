@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Jun 15 2023 14:19:58",
+    "testExecutionTimeInMs": 23,
+    "testTotalTimeInMs": 23,
+    "commandTimeInMs": 152,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003bxLWL",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 12,
+    "coveredLines": 0,
+    "testRunCoverage": "0%",
+    "orgWideCoverage": "30%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002L3UOEA0",
+      "queueItemId": "7098d000000V4sNAAS",
+      "stackTrace": "(System Code)\nClass.RESTCalloutsTest.getAnimalsTest: line 50, column 1",
+      "message": "System.TypeException: Supplied type is not an interface",
+      "asyncApexJobId": "7078d00003bxLWLAA2",
+      "methodName": "getAnimalsTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QzMtjAAF",
+        "name": "RESTCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "RESTCalloutsTest"
+      },
+      "runTime": 23,
+      "testTimestamp": "2023-06-15T13:19:58.000+0000",
+      "fullName": "RESTCalloutsTest.getAnimalsTest",
+      "diagnostic": {
+        "exceptionMessage": "System.TypeException: Supplied type is not an interface",
+        "exceptionStackTrace": "(System Code)\nClass.RESTCalloutsTest.getAnimalsTest: line 50, column 1",
+        "className": "RESTCalloutsTest",
+        "compileProblem": "",
+        "lineNumber": 50,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "RESTCalloutsMock",
+          "apexClassOrTriggerId": "01p8d00000QzSwDAAV",
+          "apexTestClassId": "01p8d00000QzMtjAAF",
+          "apexTestMethodName": "getAnimalsTest",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 12,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              16
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QzSwDAAV",
+      "name": "RESTCalloutsMock",
+      "type": "ApexClass",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 12,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        16
+      ]
+    }
+  ]
+}

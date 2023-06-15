@@ -1,0 +1,30 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "RESTCalloutsMock",
+      "apexClassOrTriggerId": "01p8d00000QzSwDAAV",
+      "apexTestClassId": "01p8d00000QzMtjAAF",
+      "apexTestMethodName": "getAnimalsTest",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 12,
+      "percentage": "0%",
+      "coverage": {
+        "coveredLines": [],
+        "uncoveredLines": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          16
+        ]
+      }
+    }
+  ]
+]
