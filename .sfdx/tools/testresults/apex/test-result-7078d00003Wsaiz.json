@@ -1,0 +1,531 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Jun 05 2023 18:22:23",
+    "testExecutionTimeInMs": 2295,
+    "testTotalTimeInMs": 2295,
+    "commandTimeInMs": 165,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003Wsaiz",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 97,
+    "coveredLines": 71,
+    "testRunCoverage": "73%",
+    "orgWideCoverage": "38%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002KsrWEAS",
+      "queueItemId": "7098d000000V458AAC",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003WsaizAAB",
+      "methodName": "testInsertCustomobject",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000Qwvd9AAB",
+        "name": "DMLDemoTest",
+        "namespacePrefix": null,
+        "fullName": "DMLDemoTest"
+      },
+      "runTime": 421,
+      "testTimestamp": "2023-06-05T17:22:23.000+0000",
+      "fullName": "DMLDemoTest.testInsertCustomobject",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "DMLDemo",
+          "apexClassOrTriggerId": "01p8d00000QvzhEAAR",
+          "apexTestClassId": "01p8d00000Qwvd9AAB",
+          "apexTestMethodName": "testInsertCustomobject",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 6,
+          "percentage": "45%",
+          "coverage": {
+            "coveredLines": [
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "uncoveredLines": [
+              2,
+              3,
+              5,
+              6,
+              7,
+              9
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "SalesforceProjectTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsfAAAQ",
+          "apexTestClassId": "01p8d00000Qwvd9AAB",
+          "apexTestMethodName": "testInsertCustomobject",
+          "numLinesCovered": 8,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              9,
+              12,
+              13
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "SalesforceProjectTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwOdHAAV",
+          "apexTestClassId": "01p8d00000Qwvd9AAB",
+          "apexTestMethodName": "testInsertCustomobject",
+          "numLinesCovered": 26,
+          "numLinesUncovered": 22,
+          "percentage": "54%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              7,
+              8,
+              10,
+              11,
+              12,
+              14,
+              15,
+              16,
+              17,
+              18,
+              20,
+              22,
+              25,
+              26,
+              73,
+              74,
+              75,
+              76,
+              78,
+              80,
+              85,
+              86,
+              87,
+              88,
+              91
+            ],
+            "uncoveredLines": [
+              33,
+              34,
+              35,
+              48,
+              50,
+              51,
+              52,
+              53,
+              54,
+              59,
+              64,
+              65,
+              67,
+              68,
+              89,
+              93,
+              99,
+              100,
+              102,
+              104,
+              105,
+              107
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8d000002KsrXEAS",
+      "queueItemId": "7098d000000V458AAC",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003WsaizAAB",
+      "methodName": "testInsertStandartobject",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000Qwvd9AAB",
+        "name": "DMLDemoTest",
+        "namespacePrefix": null,
+        "fullName": "DMLDemoTest"
+      },
+      "runTime": 1874,
+      "testTimestamp": "2023-06-05T17:22:24.000+0000",
+      "fullName": "DMLDemoTest.testInsertStandartobject",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "SalesforceProjectTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwOdHAAV",
+          "apexTestClassId": "01p8d00000Qwvd9AAB",
+          "apexTestMethodName": "testInsertStandartobject",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 45,
+          "percentage": "6%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              73,
+              80
+            ],
+            "uncoveredLines": [
+              7,
+              8,
+              10,
+              11,
+              12,
+              14,
+              15,
+              16,
+              17,
+              18,
+              20,
+              22,
+              25,
+              26,
+              33,
+              34,
+              35,
+              48,
+              50,
+              51,
+              52,
+              53,
+              54,
+              59,
+              64,
+              65,
+              67,
+              68,
+              74,
+              75,
+              76,
+              78,
+              85,
+              86,
+              87,
+              88,
+              89,
+              91,
+              93,
+              99,
+              100,
+              102,
+              104,
+              105,
+              107
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000Qwvd9AAB",
+          "apexTestMethodName": "testInsertStandartobject",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              6,
+              7,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000Qwvd9AAB",
+          "apexTestMethodName": "testInsertStandartobject",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              7,
+              8,
+              11
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "DMLDemo",
+          "apexClassOrTriggerId": "01p8d00000QvzhEAAR",
+          "apexTestClassId": "01p8d00000Qwvd9AAB",
+          "apexTestMethodName": "testInsertStandartobject",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 4,
+          "percentage": "64%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              5,
+              6,
+              7,
+              9,
+              15
+            ],
+            "uncoveredLines": [
+              16,
+              17,
+              18,
+              19
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000Qwvd9AAB",
+          "apexTestMethodName": "testInsertStandartobject",
+          "numLinesCovered": 14,
+          "numLinesUncovered": 6,
+          "percentage": "70%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              5,
+              6,
+              10,
+              16,
+              17,
+              21,
+              27,
+              30,
+              32,
+              34,
+              39,
+              42,
+              48
+            ],
+            "uncoveredLines": [
+              11,
+              18,
+              22,
+              35,
+              45,
+              46
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "SalesforceProjectTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsfAAAQ",
+          "apexTestClassId": "01p8d00000Qwvd9AAB",
+          "apexTestMethodName": "testInsertStandartobject",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 8,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              2,
+              4,
+              5,
+              6,
+              7,
+              9,
+              12,
+              13
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QwOdHAAV",
+      "name": "SalesforceProjectTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 26,
+      "numLinesUncovered": 22,
+      "percentage": "54%",
+      "coveredLines": [
+        3,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        22,
+        25,
+        26,
+        73,
+        74,
+        75,
+        76,
+        78,
+        80,
+        85,
+        86,
+        87,
+        88,
+        91
+      ],
+      "uncoveredLines": [
+        33,
+        34,
+        35,
+        48,
+        50,
+        51,
+        52,
+        53,
+        54,
+        59,
+        64,
+        65,
+        67,
+        68,
+        89,
+        93,
+        99,
+        100,
+        102,
+        104,
+        105,
+        107
+      ]
+    },
+    {
+      "apexId": "01p8d00000QvzhEAAR",
+      "name": "DMLDemo",
+      "type": "ApexClass",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000QwLVPAA3",
+      "name": "AccountTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 16,
+      "numLinesUncovered": 4,
+      "percentage": "80%",
+      "coveredLines": [
+        2,
+        5,
+        6,
+        10,
+        11,
+        16,
+        17,
+        21,
+        22,
+        27,
+        30,
+        32,
+        34,
+        39,
+        42,
+        48
+      ],
+      "uncoveredLines": [
+        18,
+        35,
+        45,
+        46
+      ]
+    },
+    {
+      "apexId": "01q8d000000hsfAAAQ",
+      "name": "SalesforceProjectTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 8,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        12,
+        13
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8d000000hsDaAAI",
+      "name": "AccountTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000Qwv84AAB",
+      "name": "AccountUpdateHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}
