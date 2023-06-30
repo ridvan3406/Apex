@@ -282,6 +282,7 @@
     "lodash.merge": "^4.6.2",
     "log-update": "^4.0.0",
     "lru-cache": "^5.1.1",
+    "lwc": "^2.50.0",
     "make-dir": "^3.1.0",
     "makeerror": "^1.0.12",
     "merge-stream": "^2.0.0",

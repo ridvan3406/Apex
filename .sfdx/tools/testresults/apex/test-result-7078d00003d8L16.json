@@ -1,0 +1,237 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Mon Jun 19 2023 14:28:06",
+    "testExecutionTimeInMs": 30,
+    "testTotalTimeInMs": 30,
+    "commandTimeInMs": 133,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003d8L16",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 51,
+    "coveredLines": 34,
+    "testRunCoverage": "67%",
+    "orgWideCoverage": "26%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002L8W0EAK",
+      "queueItemId": "7098d000000V51PAAS",
+      "stackTrace": "Class.ParksServices.ParksImplPort.byCountry: line 44, column 1\nClass.SoapCallouts.getParksByCountry: line 4, column 1\nClass.SoapCalloutsTest.parkSrviceTest: line 8, column 1",
+      "message": "System.NullPointerException: Attempt to de-reference a null object",
+      "asyncApexJobId": "7078d00003d8L16AAE",
+      "methodName": "parkSrviceTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QzYr7AAF",
+        "name": "SoapCalloutsTest",
+        "namespacePrefix": null,
+        "fullName": "SoapCalloutsTest"
+      },
+      "runTime": 30,
+      "testTimestamp": "2023-06-19T13:28:06.000+0000",
+      "fullName": "SoapCalloutsTest.parkSrviceTest",
+      "diagnostic": {
+        "exceptionMessage": "System.NullPointerException: Attempt to de-reference a null object",
+        "exceptionStackTrace": "Class.ParksServices.ParksImplPort.byCountry: line 44, column 1\nClass.SoapCallouts.getParksByCountry: line 4, column 1\nClass.SoapCalloutsTest.parkSrviceTest: line 8, column 1",
+        "className": "ParksServices",
+        "compileProblem": "",
+        "lineNumber": 44,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ParksServices",
+          "apexClassOrTriggerId": "01p8d00000QzTRXAA3",
+          "apexTestClassId": "01p8d00000QzYr7AAF",
+          "apexTestMethodName": "parkSrviceTest",
+          "numLinesCovered": 27,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              6,
+              7,
+              8,
+              12,
+              13,
+              14,
+              17,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              43,
+              44
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ParksServicesMock",
+          "apexClassOrTriggerId": "01p8d00000QzYS1AAN",
+          "apexTestClassId": "01p8d00000QzYr7AAF",
+          "apexTestMethodName": "parkSrviceTest",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "SoapCallouts",
+          "apexClassOrTriggerId": "01p8d00000QzTS6AAN",
+          "apexTestClassId": "01p8d00000QzYr7AAF",
+          "apexTestMethodName": "parkSrviceTest",
+          "numLinesCovered": 3,
+          "numLinesUncovered": 17,
+          "percentage": "15%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              4
+            ],
+            "uncoveredLines": [
+              6,
+              8,
+              9,
+              10,
+              11,
+              13,
+              14,
+              15,
+              16,
+              18,
+              19,
+              20,
+              21,
+              23,
+              24,
+              25,
+              26
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QzTRXAA3",
+      "name": "ParksServices",
+      "type": "ApexClass",
+      "numLinesCovered": 27,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        17,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000QzTS6AAN",
+      "name": "SoapCallouts",
+      "type": "ApexClass",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 17,
+      "percentage": "15%",
+      "coveredLines": [
+        2,
+        3,
+        4
+      ],
+      "uncoveredLines": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "apexId": "01p8d00000QzYS1AAN",
+      "name": "ParksServicesMock",
+      "type": "ApexClass",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

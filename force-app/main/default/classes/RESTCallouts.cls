@@ -185,7 +185,7 @@ public with sharing class RESTCallouts {
   public static HttpResponse postContacts() {
     //1.Prepare hhttp request and wrap the necessry information in it
     HttpRequest request = new HttpRequest();
-    request.setEndpoint('https://gorest.co.in/public/v2/users');
+    request.setEndpoint('https://gorest.co.in/public/v2/posts');
     request.setMethod('POST');
     //1.1 Get the data and prepare it as json
     List<Contact> contacts = [
@@ -217,6 +217,45 @@ public with sharing class RESTCallouts {
     //4. Process the HTTPresponse
     if (response.getStatusCode() == 201) {
       System.debug('Request has been processed succesfully');
+    }
+    return response;
+  }
+  public static HttpResponse postPosts() {
+    //1.Prepare hhttp request and wrap the necessry information in it
+    HttpRequest request = new HttpRequest();
+    request.setEndpoint('https://gorest.co.in/public/v2/users');
+    request.setMethod('POST');
+
+    //1.1 Prepare body
+    Posts__c posts = [
+      SELECT User_ID__c, Title__c, Body__c
+      FROM Posts__c
+      WHERE CreatedDate = TODAY
+      LIMIT 1
+    ];
+    PostWrapper post = new PostWrapper();
+    post.user_id = Integer.valueOf(posts.User_ID__c);
+    post.title=posts.Title__c;
+    post.body=posts.Body__c;
+    request.setBody(JSON.serialize(post));
+    request.setHeader('Content-Type', 'application/json;charset=UTF-8');
+    request.setHeader(
+      'Authorization',
+      'Bearer cd9f3a01284e1f90c9ead328ebc740933c81f4c40bb56f1235c075141924af50'
+    );
+
+    //2.Prepare the internet connection
+    Http http = new Http();
+    //3.Send rhe HttpRequest over the internet to reveive HTTPRESPONSE basck
+    HttpResponse response = http.send(request);
+    System.debug(response.getBody());
+    //4. Process the HTTPresponse
+    if (response.getStatusCode() == 201) {
+      System.debug(
+        'Request has been processed succesfully' + response.getBody()
+      );
+    } else {
+      System.debug('error');
     }
     return response;
   }

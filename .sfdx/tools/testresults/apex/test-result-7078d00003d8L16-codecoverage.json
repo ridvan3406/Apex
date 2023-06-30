@@ -1,0 +1,98 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "ParksServices",
+      "apexClassOrTriggerId": "01p8d00000QzTRXAA3",
+      "apexTestClassId": "01p8d00000QzYr7AAF",
+      "apexTestMethodName": "parkSrviceTest",
+      "numLinesCovered": 27,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          6,
+          7,
+          8,
+          12,
+          13,
+          14,
+          17,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          44
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "ParksServicesMock",
+      "apexClassOrTriggerId": "01p8d00000QzYS1AAN",
+      "apexTestClassId": "01p8d00000QzYr7AAF",
+      "apexTestMethodName": "parkSrviceTest",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "SoapCallouts",
+      "apexClassOrTriggerId": "01p8d00000QzTS6AAN",
+      "apexTestClassId": "01p8d00000QzYr7AAF",
+      "apexTestMethodName": "parkSrviceTest",
+      "numLinesCovered": 3,
+      "numLinesUncovered": 17,
+      "percentage": "15%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          4
+        ],
+        "uncoveredLines": [
+          6,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          23,
+          24,
+          25,
+          26
+        ]
+      }
+    }
+  ]
+]
