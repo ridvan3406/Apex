@@ -86,7 +86,9 @@ global with sharing class CaseManager {
 
     Case cs = new Case();
     for (String key : caseInfo.keySet()) {
-      cs.put(key, caseInfo.get(key));
+      if (key != 'attributes') {
+        cs.put(key, caseInfo.get(key));
+      }
     }
     update cs;
     return cs;

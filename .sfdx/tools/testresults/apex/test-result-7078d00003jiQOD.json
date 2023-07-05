@@ -1,0 +1,923 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Fri Jun 30 2023 16:41:14",
+    "testExecutionTimeInMs": 103,
+    "testTotalTimeInMs": 103,
+    "commandTimeInMs": 184,
+    "hostname": "https://d8d0000090l4eeaq-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00003jiQOD",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 136,
+    "coveredLines": 73,
+    "testRunCoverage": "54%",
+    "orgWideCoverage": "29%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000002LRWnEAO",
+      "queueItemId": "7098d000000V69FAAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003jiQODAA2",
+      "methodName": "createCaseTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QzyINAAZ",
+        "name": "CaseManagerTest",
+        "namespacePrefix": null,
+        "fullName": "CaseManagerTest"
+      },
+      "runTime": 54,
+      "testTimestamp": "2023-06-30T15:41:15.000+0000",
+      "fullName": "CaseManagerTest.createCaseTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContactTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDzAAI",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 8,
+          "numLinesUncovered": 4,
+          "percentage": "67%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              10,
+              11,
+              12,
+              13,
+              14,
+              20,
+              28
+            ],
+            "uncoveredLines": [
+              15,
+              21,
+              22,
+              23
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseTrigger2",
+          "apexClassOrTriggerId": "01q8d000000hwXGAAY",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              4
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ContactTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwNCpAAN",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 14,
+          "percentage": "22%",
+          "coverage": {
+            "coveredLines": [
+              27,
+              29,
+              31,
+              40
+            ],
+            "uncoveredLines": [
+              4,
+              7,
+              8,
+              9,
+              10,
+              15,
+              18,
+              19,
+              20,
+              21,
+              23,
+              32,
+              35,
+              37
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseManager",
+          "apexClassOrTriggerId": "01p8d00000QzoxjAAB",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 8,
+          "numLinesUncovered": 38,
+          "percentage": "17%",
+          "coverage": {
+            "coveredLines": [
+              22,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34
+            ],
+            "uncoveredLines": [
+              4,
+              7,
+              8,
+              9,
+              10,
+              13,
+              16,
+              18,
+              38,
+              39,
+              40,
+              41,
+              42,
+              44,
+              47,
+              50,
+              51,
+              55,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              71,
+              73,
+              79,
+              80,
+              81,
+              82,
+              83,
+              87,
+              88,
+              89,
+              91,
+              92
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ContactTrigger2",
+          "apexClassOrTriggerId": "01q8d000000hwc7AAA",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 1,
+          "numLinesUncovered": 1,
+          "percentage": "50%",
+          "coverage": {
+            "coveredLines": [
+              2
+            ],
+            "uncoveredLines": [
+              4
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseInvocable",
+          "apexClassOrTriggerId": "01p8d00000QyhHaAAJ",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 11,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              18,
+              20,
+              21,
+              23
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              6,
+              7,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 14,
+          "numLinesUncovered": 6,
+          "percentage": "70%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              5,
+              6,
+              10,
+              16,
+              17,
+              21,
+              27,
+              30,
+              32,
+              34,
+              39,
+              42,
+              48
+            ],
+            "uncoveredLines": [
+              11,
+              18,
+              22,
+              35,
+              45,
+              46
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              7,
+              8,
+              11
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseTrigger2Handler",
+          "apexClassOrTriggerId": "01p8d00000QxLvtAAF",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 8,
+          "percentage": "47%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              7,
+              10,
+              12,
+              18,
+              20,
+              31
+            ],
+            "uncoveredLines": [
+              13,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              32
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseTrigger",
+          "apexClassOrTriggerId": "01q8d000000htcFAAQ",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "createCaseTest",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 0,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8d000002LRWoEAO",
+      "queueItemId": "7098d000000V69FAAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d00003jiQODAA2",
+      "methodName": "getCaseTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QzyINAAZ",
+        "name": "CaseManagerTest",
+        "namespacePrefix": null,
+        "fullName": "CaseManagerTest"
+      },
+      "runTime": 49,
+      "testTimestamp": "2023-06-30T15:41:15.000+0000",
+      "fullName": "CaseManagerTest.getCaseTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "CaseTrigger2",
+          "apexClassOrTriggerId": "01q8d000000hwXGAAY",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 2,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              2,
+              4
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseInvocable",
+          "apexClassOrTriggerId": "01p8d00000QyhHaAAJ",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 1,
+          "numLinesUncovered": 10,
+          "percentage": "9%",
+          "coverage": {
+            "coveredLines": [
+              7
+            ],
+            "uncoveredLines": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              18,
+              20,
+              21,
+              23
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ContactTrigger2",
+          "apexClassOrTriggerId": "01q8d000000hwc7AAA",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 2,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              2,
+              4
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ContactTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwNCpAAN",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 1,
+          "numLinesUncovered": 17,
+          "percentage": "6%",
+          "coverage": {
+            "coveredLines": [
+              27
+            ],
+            "uncoveredLines": [
+              4,
+              7,
+              8,
+              9,
+              10,
+              15,
+              18,
+              19,
+              20,
+              21,
+              23,
+              29,
+              31,
+              32,
+              35,
+              37,
+              40
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 1,
+          "numLinesUncovered": 4,
+          "percentage": "20%",
+          "coverage": {
+            "coveredLines": [
+              3
+            ],
+            "uncoveredLines": [
+              4,
+              6,
+              7,
+              10
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseManager",
+          "apexClassOrTriggerId": "01p8d00000QzoxjAAB",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 9,
+          "numLinesUncovered": 37,
+          "percentage": "20%",
+          "coverage": {
+            "coveredLines": [
+              4,
+              7,
+              8,
+              9,
+              10,
+              13,
+              16,
+              18,
+              22
+            ],
+            "uncoveredLines": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              38,
+              39,
+              40,
+              41,
+              42,
+              44,
+              47,
+              50,
+              51,
+              55,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              71,
+              73,
+              79,
+              80,
+              81,
+              82,
+              83,
+              87,
+              88,
+              89,
+              91,
+              92
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 18,
+          "percentage": "10%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              27
+            ],
+            "uncoveredLines": [
+              5,
+              6,
+              10,
+              11,
+              16,
+              17,
+              18,
+              21,
+              22,
+              30,
+              32,
+              34,
+              35,
+              39,
+              42,
+              45,
+              46,
+              48
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 5,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              3,
+              5,
+              7,
+              8,
+              11
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseTrigger2Handler",
+          "apexClassOrTriggerId": "01p8d00000QxLvtAAF",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 1,
+          "numLinesUncovered": 14,
+          "percentage": "7%",
+          "coverage": {
+            "coveredLines": [
+              2
+            ],
+            "uncoveredLines": [
+              7,
+              10,
+              12,
+              13,
+              18,
+              20,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              31,
+              32
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "CaseTrigger",
+          "apexClassOrTriggerId": "01q8d000000htcFAAQ",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 0,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "ContactTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDzAAI",
+          "apexTestClassId": "01p8d00000QzyINAAZ",
+          "apexTestMethodName": "getCaseTest",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 12,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              3,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              20,
+              21,
+              22,
+              23,
+              28
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QzoxjAAB",
+      "name": "CaseManager",
+      "type": "ApexClass",
+      "numLinesCovered": 16,
+      "numLinesUncovered": 30,
+      "percentage": "35%",
+      "coveredLines": [
+        4,
+        7,
+        8,
+        9,
+        10,
+        13,
+        16,
+        18,
+        22,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "uncoveredLines": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        44,
+        47,
+        50,
+        51,
+        55,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        71,
+        73,
+        79,
+        80,
+        81,
+        82,
+        83,
+        87,
+        88,
+        89,
+        91,
+        92
+      ]
+    },
+    {
+      "apexId": "01p8d00000QyhHaAAJ",
+      "name": "CaseInvocable",
+      "type": "ApexClass",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        18,
+        20,
+        21,
+        23
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000QwNCpAAN",
+      "name": "ContactTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 14,
+      "percentage": "22%",
+      "coveredLines": [
+        27,
+        29,
+        31,
+        40
+      ],
+      "uncoveredLines": [
+        4,
+        7,
+        8,
+        9,
+        10,
+        15,
+        18,
+        19,
+        20,
+        21,
+        23,
+        32,
+        35,
+        37
+      ]
+    },
+    {
+      "apexId": "01q8d000000hwXGAAY",
+      "name": "CaseTrigger2",
+      "type": "ApexTrigger",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        4
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000QwLVPAA3",
+      "name": "AccountTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 14,
+      "numLinesUncovered": 6,
+      "percentage": "70%",
+      "coveredLines": [
+        2,
+        5,
+        6,
+        10,
+        16,
+        17,
+        21,
+        27,
+        30,
+        32,
+        34,
+        39,
+        42,
+        48
+      ],
+      "uncoveredLines": [
+        11,
+        18,
+        22,
+        35,
+        45,
+        46
+      ]
+    },
+    {
+      "apexId": "01q8d000000hwc7AAA",
+      "name": "ContactTrigger2",
+      "type": "ApexTrigger",
+      "numLinesCovered": 1,
+      "numLinesUncovered": 1,
+      "percentage": "50%",
+      "coveredLines": [
+        2
+      ],
+      "uncoveredLines": [
+        4
+      ]
+    },
+    {
+      "apexId": "01q8d000000hsDaAAI",
+      "name": "AccountTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000Qwv84AAB",
+      "name": "AccountUpdateHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8d000000hsDzAAI",
+      "name": "ContactTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 8,
+      "numLinesUncovered": 4,
+      "percentage": "67%",
+      "coveredLines": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        20,
+        28
+      ],
+      "uncoveredLines": [
+        15,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "apexId": "01p8d00000QxLvtAAF",
+      "name": "CaseTrigger2Handler",
+      "type": "ApexClass",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 8,
+      "percentage": "47%",
+      "coveredLines": [
+        2,
+        7,
+        10,
+        12,
+        18,
+        20,
+        31
+      ],
+      "uncoveredLines": [
+        13,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        32
+      ]
+    },
+    {
+      "apexId": "01q8d000000htcFAAQ",
+      "name": "CaseTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 0,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": []
+    }
+  ]
+}
