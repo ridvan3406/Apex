@@ -5,17 +5,10 @@
     title="Local Properties"
     icon-name="standard:account"
   >
-    <lightning-button-icon
-      icon-name="utility:down"
-      variant="border-filled"
-      alternative-text="Show More"
-      slot="actions"
-      label="Show More"
-    ></lightning-button-icon>
     <div class="slds-var-m-around_medium">
-      <p class="slds-var-p-horizontal_small">{fullName}</p>
-      <p class="slds-var-p-horizontal_small">{age}</p>
-      <p class="slds-var-p-horizontal_small">{location.city}</p>
+      <p class="slds-var-p-horizontal_small">
+        Hello , my name is {fullName} and I am {age}. I live in {location.city}
+      </p>
     </div>
   </lightning-card>
 </template>

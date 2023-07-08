@@ -1,0 +1,18 @@
+<template>
+  <lightning-card
+    variant="Narrow"
+    title="Track Ptoperty"
+    icon-name="standard:account"
+  >
+    <div class="slds-var-m-around_medium">
+      <lightning-input
+        type="text"
+        value={location.city}
+        label="Enter the city name"
+        placeholder="type here..."
+        onchange={cityHandler}
+      ></lightning-input>
+      <div class="slds-var-m-top_medium">i live at {location.city}</div>
+    </div>
+  </lightning-card>
+</template>

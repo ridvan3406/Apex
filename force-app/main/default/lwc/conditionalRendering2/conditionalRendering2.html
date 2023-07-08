@@ -1,0 +1,24 @@
+<template>
+  <lightning-card
+    variant="Narrow"
+    title="Condiditional Rendering 2"
+    icon-name="standard:account"
+  >
+    <div class="slds-var-m-around_medium">
+      
+      <template if:true={showData}>
+        <div class="slds-var-m-bottom_large">
+          <p class="slds-p-horizontal_small">
+            My name is {details.fullName} and i live in {details.place}
+          </p>
+        </div>
+      </template>
+      <lightning-button
+        variant="brand"
+        label="Show/Hide Details"
+        onclick={clickHandler}
+        class="slds-m-left_x-small"
+      ></lightning-button>
+    </div>
+  </lightning-card>
+</template>

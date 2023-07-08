@@ -1,0 +1,28 @@
+<template>
+  <lightning-card variant="Narrow" title="Getters" icon-name="standard:account">
+    <div class="slds-var-m-around_medium">
+      <p class="slds-var-p-horizontal_small">Num1 value is {num1}</p>
+      <p class="slds-var-p-horizontal_small">Num2 value is {num2}</p>
+      <p class="slds-var-p-horizontal_small">Sum value is {sum}</p>
+      <p class="slds-var-p-horizontal_small">First fruit is {firstFruit}</p>
+    </div>
+  </lightning-card>
+  <lightning-card
+    variant="Narrow"
+    title="Combobox"
+    icon-name="standard:account"
+  >
+    <div class="slds-var-m-around_medium">
+      <lightning-combobox
+        name="progress"
+        label="Status"
+        value={value}
+        placeholder="Select Progress"
+        options={options}
+        onchange={handleChange}
+      ></lightning-combobox>
+
+      <p>Selected value is: {value}</p>
+    </div>
+  </lightning-card>
+</template>

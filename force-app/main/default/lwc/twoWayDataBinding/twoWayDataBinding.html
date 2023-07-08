@@ -1,0 +1,19 @@
+<template>
+  <lightning-card
+    variant="Narrow"
+    title="Two way Data Binding"
+    icon-name="standard:account"
+  >
+    <div class="slds-p-around_medium lgc-bg">
+      <lightning-input
+        type="text"
+        label="Enter name"
+        value={name}
+        onchange={handleChange}
+        placeholder="Write a name here..."
+      ></lightning-input>
+      <p class="slds-p-horizontal_small">The name is {name}</p>
+      <lightning-button label="Submit" onclick={handleClick}></lightning-button>
+    </div>
+  </lightning-card>
+</template>
