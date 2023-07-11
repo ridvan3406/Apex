@@ -1,0 +1,34 @@
+<template>
+  <lightning-card
+    variant="Narrow"
+    title="Template Loop 1"
+    icon-name="standard:account"
+  >
+  <div class="slds-grid">
+    <div class="slds-col">
+        <div class="slds-var-m-around_large">
+            <template for:each={fruits} for:item="fruit">
+              <p key={fruit}>{fruit}</p>
+            </template>
+          </div>
+    </div>
+    <div class="slds-col">
+        <div class="slds-var-m-around_large">
+            <template for:each={postCodes} for:item="postCode">
+              <p key={postCode}>{postCode}</p>
+            </template>
+          </div>
+    </div>
+    <div class="slds-col">
+        <div class="slds-var-m-around_large">
+            <template for:each={contacts} for:item="contact">
+            <p key={contact}>{contact.firstName} {contact.lastName}</p>
+            </template>
+          </div>
+    </div>
+  </div>
+
+    
+    
+  </lightning-card>
+</template>
