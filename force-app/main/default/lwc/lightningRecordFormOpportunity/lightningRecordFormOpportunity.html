@@ -1,0 +1,21 @@
+<template>
+    <lightning-card
+      variant="Narrow"
+      title="LIGHTNING RECORD FORM :Opportunity"
+      icon-name="standard:opportunity"
+    >
+      <div class="slds-var-m-around_medium">
+          <lightning-record-form
+            object-api-name={objectName}
+            record-id={recordId}
+            fields={fields}
+            onsuccess={successHandler}
+            columns="2"
+            
+          >
+          </lightning-record-form>
+      </div>
+  
+    </lightning-card>
+  </template>
+  

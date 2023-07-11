@@ -30,7 +30,12 @@ global class Pricebook2 {
     global List<PricebookEntry> PricebookEntries;
     global List<RecordAction> RecordActions;
     global List<RecordActionHistory> RecordActionHistories;
+    global List<ServiceContract> ServiceContracts;
+    global List<WorkOrder> WorkOrders;
+    global List<AIInsightValue> SobjectLookupValue;
+    global List<AIRecordInsight> Target;
     global List<ContractChangeEvent> Pricebook2;
+    global List<FlowExecutionErrorEvent> ContextRecord;
     global List<FlowRecordRelation> RelatedRecord;
     global List<OpportunityChangeEvent> Pricebook2;
 

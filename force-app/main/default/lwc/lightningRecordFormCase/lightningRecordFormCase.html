@@ -1,0 +1,22 @@
+<template>
+    <lightning-card
+      variant="Narrow"
+      title="LIGHTNING RECORD FORM :Case"
+      icon-name="standard:case"
+    >
+      <div class="slds-var-m-around_medium">
+          <lightning-record-form
+            object-api-name={objectName}
+            record-id={recordId}
+            onsuccess={successHandler}
+            layout-type={layoutType}
+            fields={fields}
+            columns="2"
+            
+          >
+          </lightning-record-form>
+      </div>
+  
+    </lightning-card>
+  </template>
+  
