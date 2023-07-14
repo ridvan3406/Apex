@@ -1,0 +1,14 @@
+<template >
+    <lightning-card  variant="Narrow"  title="My Contacts" icon-name="standard:account">
+        <div class="slds-var-m-around_medium">
+           <template for:each={contacts} for:item="contact">
+            <div key={contact} class="slds-var-m-bottom_large">
+                <h1 class="slds-text-heading_large">{contact.name}</h1>
+                <p>{contact.title},{contact.company}</p>
+                <p>{contact.stay}</p>
+            </div>
+             
+           </template>
+        </div>
+    </lightning-card>
+</template>

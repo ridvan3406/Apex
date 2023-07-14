@@ -1,0 +1,19 @@
+<template>
+    <lightning-card variant="Narrow" title="Calculator" icon-name="standard:account">
+      <div class="slds-var-m-around_medium">
+        <lightning-input type="number" variant="standard" name="num1" label="Enter a number" placeholder="type here..." value={num1} onchange={handleChange}></lightning-input>
+        <lightning-input type="number" variant="standard" name="num2" label="Enter a number" placeholder="type here..." value={num2} onchange={handleChange}></lightning-input>
+        <div class="slds-grid slds-wrap slds-grid_align-center slds-var-m-top_small">
+          <lightning-button variant="brand" label="Total" onclick={handleTotal} class="slds-var-m-right_x-small"></lightning-button>
+          <lightning-button variant="success" label="Difference" onclick={handleDifference} class="slds-var-m-right_x-small"></lightning-button>
+          <lightning-button variant="destructive" label="Multiply" onclick={handleProduct} class="slds-var-m-right_small"></lightning-button>
+          <lightning-button variant="warning" label="Divide" onclick={handleQuotient} class="slds-var-m-bottom_x-small"></lightning-button>
+        </div>
+        <div class="slds-var-m-top_small">
+          <p>Result: {result}</p>
+         
+        </div>
+      </div>
+    </lightning-card>
+  </template>
+  
