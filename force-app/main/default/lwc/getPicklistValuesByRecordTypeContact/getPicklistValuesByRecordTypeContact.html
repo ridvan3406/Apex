@@ -1,0 +1,21 @@
+<template>
+    <lightning-card  variant="Narrow"  title="GET PICKLIST VALUE BY RECORD TYPE: Vendor Contacts" icon-name="standard:account">
+        <div class ="slds-var-m-around_medium">
+            <lightning-combobox
+              label="Select customerPriorityOptions"
+              placeholder="Select one"
+              options={customerPriorityOptions}
+            ></lightning-combobox>
+            <lightning-combobox
+              label="Select statusOptions"
+              placeholder="Select one"
+              options={statusOptions}
+            ></lightning-combobox>
+            <lightning-combobox
+              label="Select leadSourceOptions"
+              placeholder="Select one"
+              options={leadSource}
+            ></lightning-combobox>
+        </div>
+    </lightning-card>
+</template>

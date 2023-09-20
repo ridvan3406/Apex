@@ -1,0 +1,16 @@
+<template>
+    <lightning-card  variant="Narrow"  title="Get PICKLIST VALUE:Stage" icon-name="standard:account">
+        <div class ="slds-var-m-around_medium">
+            <lightning-combobox
+              name="stage"
+              label="Select Stage"
+              value={selectedStage}
+              placeholder="Select Stage"
+              options={stageOptions}
+              onchange={handleChange} 
+               
+               
+            ></lightning-combobox>
+        </div>
+    </lightning-card>
+</template>
