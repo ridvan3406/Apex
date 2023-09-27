@@ -1,0 +1,25 @@
+<template>
+    <lightning-card
+      variant="Narrow"
+      title="DELETE CASE RECORD"
+      icon-name="standard:delete"
+    >
+      <div class="slds-var-m-around_medium">
+        <form class="contactform">
+          <lightning-input
+            label="Enter the record ID that you want to delete"
+            value={recordId}
+            onchange={changeHandler}
+          ></lightning-input>
+          <div class = "slds-var-m-top_small slds-align_absolute-center">
+            <lightning-button
+              variant="destructive"
+              label="Delete Record"
+              onclick={deleteHandler}
+            ></lightning-button>
+          </div>
+        </form>
+      </div>
+    </lightning-card>
+  </template>
+  

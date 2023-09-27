@@ -1,0 +1,32 @@
+<template>
+  <lightning-card variant="Narrow" title="BLOG FORM" icon-name="utility:form">
+    <div class="slds-var-m-around_medium">
+      <form class="blogform">
+        <lightning-input
+          type="text"
+          label="Author Name"
+          name="Author__c"
+          onchange={changeHandler}
+        ></lightning-input>
+        <lightning-input
+          type="text"
+          label="Topic"
+          name="Topic__c"
+          onchange={changeHandler}
+        ></lightning-input>
+        <lightning-input
+          type="text"
+          label="Blog Title"
+          name="Title__c"
+          onchange={changeHandler}
+        ></lightning-input>
+        <lightning-textarea name="Body__c" label="Blog Content" onchange={changeHandler} ></lightning-textarea>
+        <div class = "slds-align_absolute-center slds-var-m-top_small" slds-var >
+            <lightning-button variant="neutral" label="Cancel" onclick={resetBlog} class="slds-var-m-right_small"></lightning-button>
+            <lightning-button variant="brand" label="Save Blog" onclick={saveBlog}></lightning-button>
+        </div>
+
+      </form>
+    </div>
+  </lightning-card>
+</template>
