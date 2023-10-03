@@ -12,7 +12,7 @@ export default class WiredApex2 extends LightningElement {
   industryType = "Energy";
   columns = COLUMNS;
 
-  @wire(getAccountsByIndustry,{industry:"$industryType"})
+  @wire(getAccountsByIndustry, { industry: "$industryType" })
   recordHandler({ data, error }) {
     if (data) {
       this.accounts = data;
@@ -20,5 +20,8 @@ export default class WiredApex2 extends LightningElement {
     if (error) {
       console.error(error);
     }
+  }
+  get total() {
+    return this.accounts ? this.accounts.length : 0;
   }
 }
