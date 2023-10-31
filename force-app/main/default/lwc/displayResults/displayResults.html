@@ -1,0 +1,17 @@
+<!-- sldsValidatorIgnore -->
+
+<template>
+    <strong>SEARCH RESULTS:</strong>
+   
+    <template if:true={result}>
+        <lightning-datatable
+          key-field="Id"
+          data={result}
+          columns={columns}
+          onrowaction={handleRowAction}
+        ></lightning-datatable>
+    </template>
+
+  
+    <template if:true={error}>{error}</template>
+</template>

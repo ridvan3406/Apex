@@ -5,7 +5,7 @@ public with sharing class ContactController {
     return [
       SELECT Name, Title, Email, Phone
       FROM Contact
-      WHERE FirstName LIKE :searchKey OR LastName LIKE :searchKey or Title LIKE :searchKey
+      WHERE FirstName LIKE :searchKey OR LastName LIKE :searchKey
       WITH SECURITY_ENFORCED
     ];
   }

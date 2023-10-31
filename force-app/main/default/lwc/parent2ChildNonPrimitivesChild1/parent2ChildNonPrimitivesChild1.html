@@ -1,0 +1,12 @@
+<template>
+  <strong>NATIONAL PARKS :</strong>
+  <br />
+  <template
+    if:true={parks}
+    for:each={parks}
+    for:item="park"
+    for:index="index"
+  >
+    <li key={park.Id}>{park}</li>
+  </template>
+</template>

@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title = "P2C NON PRIMITIVE - Select Unique Topic">
+      <div class="slds-var-m-around_medium">
+          <lightning-combobox
+            label="Topic"
+            value={selectedTopic}
+            placeholder="Select a topic..."
+            options={topicOptions}
+            onchange={changeHandler}     
+          ></lightning-combobox>
+          <div class=" slds-var-m-top_medium">
+                <c-display-results
+                result={blogs}
+                columns={columns}
+                error={error}
+                ></c-display-results>
+          </div>
+      </div>
+     
+    </lightning-card>
+    
+</template>

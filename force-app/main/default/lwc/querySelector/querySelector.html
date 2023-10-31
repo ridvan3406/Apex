@@ -1,0 +1,20 @@
+<template>
+    <lightning-card  variant="Narrow"  title="QUERY SELECTOR" icon-name="standard:account">
+        <div class=" slds-var-m-around_medium">
+            <h1>this is a header text</h1>
+            <p>this is a paragraph</p>
+            <template if:true={cities} for:each={cities} for:item="city" for:index="index">
+               <div key={city.Id} class="child">
+                    {city}
+               </div>
+            </template>
+
+            <lightning-button 
+              variant="brand"
+              label="Click me" 
+              onclick={clickHandler} 
+              class="slds-var-m-around_medium  slds-var-m-top_large"
+            ></lightning-button>
+        </div>
+    </lightning-card>
+</template>
