@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "outcome": "Skipped",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 0,
+    "skipped": 1,
+    "passRate": "0%",
+    "failRate": "0%",
+    "skipRate": "100%",
+    "testStartTime": "Thu Dec 21 2023 15:34:29",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 170,
+    "hostname": "https://ridvan-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d00004vJldL",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 0,
+    "coveredLines": 0,
+    "testRunCoverage": "0%",
+    "orgWideCoverage": "21%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000003tEQyEAM",
+      "queueItemId": "7098d000000ZF4iAAG",
+      "stackTrace": null,
+      "message": "Method testAccountTrigger does not exist in the the apex class with Id :01p8d00000QxB4n",
+      "asyncApexJobId": "7078d00004vJldLAAS",
+      "methodName": "testAccountTrigger",
+      "outcome": "Skip",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxB4nAAF",
+        "name": "AccountsBatchTest",
+        "namespacePrefix": null,
+        "fullName": "AccountsBatchTest"
+      },
+      "runTime": 0,
+      "testTimestamp": "2023-12-21T15:34:29.000+0000",
+      "fullName": "AccountsBatchTest.testAccountTrigger",
+      "diagnostic": {
+        "exceptionMessage": "Method testAccountTrigger does not exist in the the apex class with Id :01p8d00000QxB4n",
+        "exceptionStackTrace": null,
+        "compileProblem": ""
+      }
+    }
+  ],
+  "codecoverage": []
+}

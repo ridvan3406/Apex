@@ -1,0 +1,97 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "AccountUpdateHelper",
+      "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+      "apexTestClassId": "01p8d00000WYcQKAA1",
+      "apexTestMethodName": "testUpdateAccountStatus",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          4,
+          6,
+          7,
+          10
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountTrigger",
+      "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+      "apexTestClassId": "01p8d00000WYcQKAA1",
+      "apexTestMethodName": "testUpdateAccountStatus",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          5,
+          7,
+          8,
+          11
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "TestingPractices",
+      "apexClassOrTriggerId": "01p8d00000WYcQFAA1",
+      "apexTestClassId": "01p8d00000WYcQKAA1",
+      "apexTestMethodName": "testUpdateAccountStatus",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          3,
+          5,
+          6,
+          8,
+          11
+        ],
+        "uncoveredLines": []
+      }
+    },
+    {
+      "apexClassOrTriggerName": "AccountTriggerHandler",
+      "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+      "apexTestClassId": "01p8d00000WYcQKAA1",
+      "apexTestMethodName": "testUpdateAccountStatus",
+      "numLinesCovered": 14,
+      "numLinesUncovered": 6,
+      "percentage": "70%",
+      "coverage": {
+        "coveredLines": [
+          2,
+          5,
+          6,
+          10,
+          16,
+          17,
+          21,
+          27,
+          30,
+          32,
+          34,
+          39,
+          42,
+          48
+        ],
+        "uncoveredLines": [
+          11,
+          18,
+          22,
+          35,
+          45,
+          46
+        ]
+      }
+    }
+  ]
+]

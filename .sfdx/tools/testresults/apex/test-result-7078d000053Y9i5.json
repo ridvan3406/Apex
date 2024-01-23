@@ -1,0 +1,232 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jan 23 2024 21:24:40",
+    "testExecutionTimeInMs": 79,
+    "testTotalTimeInMs": 79,
+    "commandTimeInMs": 174,
+    "hostname": "https://ridvan-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000053Y9i5",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 36,
+    "coveredLines": 32,
+    "testRunCoverage": "89%",
+    "orgWideCoverage": "24%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000003thESEAY",
+      "queueItemId": "7098d000000ZJ0KAAW",
+      "stackTrace": "Class.TestingPractices.updateAccountStatus: line 11, column 1\nClass.TestingPracticesTest.testUpdateAccountStatus: line 31, column 1",
+      "message": "System.DmlException: Update failed. First exception on row 0 with id 0018d00000ugqUWAAY; first error: INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST, Status: bad value for restricted picklist field: Premium: [Status__c]",
+      "asyncApexJobId": "7078d000053Y9i5AAC",
+      "methodName": "testUpdateAccountStatus",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000WYcQKAA1",
+        "name": "TestingPracticesTest",
+        "namespacePrefix": null,
+        "fullName": "TestingPracticesTest"
+      },
+      "runTime": 79,
+      "testTimestamp": "2024-01-23T21:24:42.000+0000",
+      "fullName": "TestingPracticesTest.testUpdateAccountStatus",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Update failed. First exception on row 0 with id 0018d00000ugqUWAAY; first error: INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST, Status: bad value for restricted picklist field: Premium: [Status__c]",
+        "exceptionStackTrace": "Class.TestingPractices.updateAccountStatus: line 11, column 1\nClass.TestingPracticesTest.testUpdateAccountStatus: line 31, column 1",
+        "className": "TestingPractices",
+        "compileProblem": "",
+        "lineNumber": 11,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000WYcQKAA1",
+          "apexTestMethodName": "testUpdateAccountStatus",
+          "numLinesCovered": 14,
+          "numLinesUncovered": 6,
+          "percentage": "70%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              5,
+              6,
+              10,
+              16,
+              17,
+              21,
+              27,
+              30,
+              32,
+              34,
+              39,
+              42,
+              48
+            ],
+            "uncoveredLines": [
+              11,
+              18,
+              22,
+              35,
+              45,
+              46
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000WYcQKAA1",
+          "apexTestMethodName": "testUpdateAccountStatus",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              7,
+              8,
+              11
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000WYcQKAA1",
+          "apexTestMethodName": "testUpdateAccountStatus",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              6,
+              7,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "TestingPractices",
+          "apexClassOrTriggerId": "01p8d00000WYcQFAA1",
+          "apexTestClassId": "01p8d00000WYcQKAA1",
+          "apexTestMethodName": "testUpdateAccountStatus",
+          "numLinesCovered": 6,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              5,
+              6,
+              8,
+              11
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QwLVPAA3",
+      "name": "AccountTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 16,
+      "numLinesUncovered": 4,
+      "percentage": "80%",
+      "coveredLines": [
+        2,
+        5,
+        6,
+        10,
+        11,
+        16,
+        17,
+        21,
+        22,
+        27,
+        30,
+        32,
+        34,
+        39,
+        42,
+        48
+      ],
+      "uncoveredLines": [
+        18,
+        35,
+        45,
+        46
+      ]
+    },
+    {
+      "apexId": "01p8d00000Qwv84AAB",
+      "name": "AccountUpdateHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000WYcQFAA1",
+      "name": "TestingPractices",
+      "type": "ApexClass",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        11
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8d000000hsDaAAI",
+      "name": "AccountTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

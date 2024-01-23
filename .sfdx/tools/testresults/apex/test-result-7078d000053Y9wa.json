@@ -1,0 +1,224 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jan 23 2024 21:29:28",
+    "testExecutionTimeInMs": 164,
+    "testTotalTimeInMs": 164,
+    "commandTimeInMs": 149,
+    "hostname": "https://ridvan-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000053Y9wa",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 36,
+    "coveredLines": 30,
+    "testRunCoverage": "83%",
+    "orgWideCoverage": "24%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000003thEXEAY",
+      "queueItemId": "7098d000000ZJ0PAAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000053Y9waAAC",
+      "methodName": "testUpdateAccountStatus",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000WYcQKAA1",
+        "name": "TestingPracticesTest",
+        "namespacePrefix": null,
+        "fullName": "TestingPracticesTest"
+      },
+      "runTime": 164,
+      "testTimestamp": "2024-01-23T21:29:30.000+0000",
+      "fullName": "TestingPracticesTest.testUpdateAccountStatus",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountUpdateHelper",
+          "apexClassOrTriggerId": "01p8d00000Qwv84AAB",
+          "apexTestClassId": "01p8d00000WYcQKAA1",
+          "apexTestMethodName": "testUpdateAccountStatus",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              6,
+              7,
+              10
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTrigger",
+          "apexClassOrTriggerId": "01q8d000000hsDaAAI",
+          "apexTestClassId": "01p8d00000WYcQKAA1",
+          "apexTestMethodName": "testUpdateAccountStatus",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              5,
+              7,
+              8,
+              11
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "TestingPractices",
+          "apexClassOrTriggerId": "01p8d00000WYcQFAA1",
+          "apexTestClassId": "01p8d00000WYcQKAA1",
+          "apexTestMethodName": "testUpdateAccountStatus",
+          "numLinesCovered": 6,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              3,
+              5,
+              6,
+              8,
+              11
+            ],
+            "uncoveredLines": []
+          }
+        },
+        {
+          "apexClassOrTriggerName": "AccountTriggerHandler",
+          "apexClassOrTriggerId": "01p8d00000QwLVPAA3",
+          "apexTestClassId": "01p8d00000WYcQKAA1",
+          "apexTestMethodName": "testUpdateAccountStatus",
+          "numLinesCovered": 14,
+          "numLinesUncovered": 6,
+          "percentage": "70%",
+          "coverage": {
+            "coveredLines": [
+              2,
+              5,
+              6,
+              10,
+              16,
+              17,
+              21,
+              27,
+              30,
+              32,
+              34,
+              39,
+              42,
+              48
+            ],
+            "uncoveredLines": [
+              11,
+              18,
+              22,
+              35,
+              45,
+              46
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QwLVPAA3",
+      "name": "AccountTriggerHandler",
+      "type": "ApexClass",
+      "numLinesCovered": 14,
+      "numLinesUncovered": 6,
+      "percentage": "70%",
+      "coveredLines": [
+        2,
+        5,
+        6,
+        10,
+        16,
+        17,
+        21,
+        27,
+        30,
+        32,
+        34,
+        39,
+        42,
+        48
+      ],
+      "uncoveredLines": [
+        11,
+        18,
+        22,
+        35,
+        45,
+        46
+      ]
+    },
+    {
+      "apexId": "01p8d00000Qwv84AAB",
+      "name": "AccountUpdateHelper",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p8d00000WYcQFAA1",
+      "name": "TestingPractices",
+      "type": "ApexClass",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        11
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01q8d000000hsDaAAI",
+      "name": "AccountTrigger",
+      "type": "ApexTrigger",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        5,
+        7,
+        8,
+        11
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

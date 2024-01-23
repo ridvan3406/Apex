@@ -1,0 +1,19 @@
+<template>
+  <lightning-card
+    variant="Narrow"
+    title="P2C CALLING CHILD METHOD"
+    icon-name="standard:account"
+  >
+    <div class="slds-var-m-around_large">
+        <div class="slds-var-m-top_medium">
+          <c-slider-component></c-slider-component>
+        </div>
+      <lightning-button
+        variant="Success"
+        label="Reset Slider"
+        onclick={changeSlider}
+        class="slds-align_absolute-center slds-var-m-top_large">
+      ></lightning-button>
+    </div>
+  </lightning-card>
+</template>

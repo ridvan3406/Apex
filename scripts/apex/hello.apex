@@ -27,3 +27,10 @@ if (!accountsToUpdate.isEmpty()) {
     update accountsToUpdate;
     System.debug('Updated ' + accountsToUpdate.size() + ' accounts.');
 }
+
+Integer x = 0;
+do {
+    x = 1;
+    x++;
+} while (x < 1);
+System.debug(x);

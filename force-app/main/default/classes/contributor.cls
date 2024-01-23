@@ -8,7 +8,7 @@ public class ManageDonation {
                                          FROM Donation__c 
                                          GROUP BY ContactId 
                                          ORDER BY totalAmount DESC 
-                                         LIMIT ];
+                                         LIMIT 10 ];
         
         // Extract the Contact Ids from the AggregateResults
         Set<Id> contactIds = new Set<Id>();

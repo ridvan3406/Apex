@@ -1,0 +1,79 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jan 23 2024 21:34:11",
+    "testExecutionTimeInMs": 29,
+    "testTotalTimeInMs": 29,
+    "commandTimeInMs": 170,
+    "hostname": "https://ridvan-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D8d0000090l4EEAQ",
+    "username": "ridvansaman34@gmail.com",
+    "testRunId": "7078d000053Y6uL",
+    "userId": "0058d000005gLuVAAU",
+    "totalLines": 2,
+    "coveredLines": 2,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "21%"
+  },
+  "tests": [
+    {
+      "id": "07M8d000003thEcEAI",
+      "queueItemId": "7098d000000ZJ0UAAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078d000053Y6uLAAS",
+      "methodName": "testForStudent",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8d00000QxK28AAF",
+        "name": "TestPracticeTest",
+        "namespacePrefix": null,
+        "fullName": "TestPracticeTest"
+      },
+      "runTime": 29,
+      "testTimestamp": "2024-01-23T21:34:11.000+0000",
+      "fullName": "TestPracticeTest.testForStudent",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "TestPractice",
+          "apexClassOrTriggerId": "01p8d00000QxJxvAAF",
+          "apexTestClassId": "01p8d00000QxK28AAF",
+          "apexTestMethodName": "testForStudent",
+          "numLinesCovered": 2,
+          "numLinesUncovered": 0,
+          "percentage": "100%",
+          "coverage": {
+            "coveredLines": [
+              7,
+              9
+            ],
+            "uncoveredLines": []
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8d00000QxJxvAAF",
+      "name": "TestPractice",
+      "type": "ApexClass",
+      "numLinesCovered": 2,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        7,
+        9
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}
